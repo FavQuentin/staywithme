@@ -101,7 +101,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/swm_logo_2ed28cb5-65f1-417a-8625-1f607113e30d.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
-    "checkout_body_background_color": "#999999",
+    "checkout_body_background_color": "#b9b9b9",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fff",
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
