@@ -62,10 +62,20 @@
   body > .popup-container .popup .content {
     display: flex;
     flex: auto;
+    overflow: auto;
   }
   
   body > .popup-container .popup .content img {
     object-fit: contain;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .body > .popup-container .popup {
+      width: 95vw;
+      height: 95vh;
+      top: 2.5vh;
+      right: 2.5vw;
+    }
   }
 {% endstyle %}
 
@@ -73,8 +83,4 @@
   var closePopup = () => {
     $('body > .popup-container').hide();
   }
-
-  $(document).ready(() => {
-
-  });
 </script>
