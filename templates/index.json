@@ -37,7 +37,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/flo_c4f75578-cd0c-4ffc-98b4-55738c45a1bf.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
