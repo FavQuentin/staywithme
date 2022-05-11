@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "22e8d4d4-f041-40b8-a333-579bc868409b": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "NOUVELLE COLLECTION",
+            "button_link_1": "shopify:\/\/collections\/collection-twenty-five",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "22e8d4d4-f041-40b8-a333-579bc868409b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flo_c4f75578-cd0c-4ffc-98b4-55738c45a1bf.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Collection Twenty Five",
+        "heading_size": "h1",
+        "description": "<p>COLLECTION LIMITÉE !<\/p><p><\/p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "collection-twenty-five",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "S.W.M",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay With Me est une marque de vêtement avec des créations originales et inédites.<\/p><p><\/p><p>Étant créatif et déterminé dans tout ce que j'entreprends, j'ai décidé de créer ma propre marque qui, me tient à cœur.<\/p><p><\/p><p>Inspiré par ma plus belle étoile, je viens captiver le monde auquel on nous a séparés.<\/p><p><\/p><p>STAY WITH ME<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 12,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "rich_text"
+  ]
+}
