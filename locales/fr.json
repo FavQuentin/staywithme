@@ -426,7 +426,6 @@
   "shopify": {
     "checkout": {
       "order_summary": {
-        "shipping_default_value": "Offerte",
         "quantity_label": "Quantité"
       },
       "contact": {
