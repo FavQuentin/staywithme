@@ -437,7 +437,8 @@
         "all_rights_reserved": "Tous droits réservés {{ shop_name }}"
       },
       "stock": {
-        "quantity_column_header": "Quantité"
+        "quantity_column_header": "Quantité",
+        "product_column_header": "PRODUITS"
       },
       "delivery_options": {
         "pick_up": "Récupérer",
