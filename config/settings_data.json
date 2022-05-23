@@ -106,7 +106,7 @@
     "checkout_sidebar_background_color": "#ffffff",
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_body_font": "Slabo 13px",
-    "checkout_accent_color": "#545454",
+    "checkout_accent_color": "#666666",
     "checkout_button_color": "#ffffff",
     "sections": {
       "announcement-bar": {
