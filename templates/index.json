@@ -113,13 +113,27 @@
             "feed_width": 100,
             "html_area": ""
           }
+        },
+        "ef1d7196-7fc3-438e-87aa-5909cbb29248": {
+          "type": "shopify:\/\/apps\/free-shipping-bar\/blocks\/fsb-custom-placement\/7ef5d9af-75a2-45c7-9b1b-f9240ee488e9",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed"
+        "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed",
+        "ef1d7196-7fc3-438e-87aa-5909cbb29248"
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "1654293324b53bcde2": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 30,
+        "feed_width": 80,
+        "html_area": ""
       }
     }
   },
@@ -127,6 +141,7 @@
     "image_banner",
     "featured_collection",
     "rich_text",
-    "1654292859dfb30534"
+    "1654292859dfb30534",
+    "1654293324b53bcde2"
   ]
 }
