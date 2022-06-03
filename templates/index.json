@@ -132,7 +132,7 @@
       "type": "instafeed",
       "settings": {
         "heading_size": 30,
-        "feed_width": 80,
+        "feed_width": 100,
         "html_area": ""
       }
     }
