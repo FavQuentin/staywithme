@@ -115,8 +115,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "OFFRE DE BIENVENUE",
-              "color_scheme": "accent-2",
+              "text": "2 ARTICLES ACHETÉS = LIVRAISON OFFERTE",
+              "color_scheme": "accent-1",
               "link": "shopify:\/\/pages\/code-promo"
             }
           }
@@ -133,7 +133,7 @@
           "color_scheme": "inverse",
           "logo": "shopify:\/\/shop_images\/swm_logo_copie.png",
           "logo_width": 110,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
