@@ -120,20 +120,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "blocks": {
-        "2c981350-7bfe-4a35-8549-bf141e488261": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Twenty Five est une collection symbolique et phare de la marque Stay With Me.<\/p><p>Le soleil et les éclairs illuminent la vie mais de manière différente.<\/p><p>Les malheurs des éclairs ne doit pas nous faire oublier les bonheurs du soleil.<\/p><p>La vie est faite de hauts et de bas, malgré tout il faut avancer. <\/p><p>« Ne l’espère pas, fais-le »<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "2c981350-7bfe-4a35-8549-bf141e488261"
-      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
