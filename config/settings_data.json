@@ -133,7 +133,7 @@
           "color_scheme": "inverse",
           "logo": "shopify:\/\/shop_images\/swm_logo_copie.png",
           "logo_width": 110,
-          "logo_position": "top-center",
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
