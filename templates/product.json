@@ -72,8 +72,8 @@
           "settings": {
             "heading": "Guides des tailles",
             "icon": "ruler",
-            "content": "",
-            "page": "guide-des-tailles"
+            "content": "<p>Taille unique <\/p>",
+            "page": ""
           }
         },
         "collapsible-row-3": {
