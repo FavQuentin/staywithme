@@ -55,7 +55,7 @@
         "description": "<p>COLLECTION LIMITÉE !<\/p><p><\/p>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "collection-twenty-five",
+        "collection": "linedit",
         "products_to_show": 6,
         "columns_desktop": 4,
         "full_width": true,
