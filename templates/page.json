@@ -9,6 +9,7 @@
     },
     "16515953107ac35fae": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": "REÇOIS TA CARTE PAR MAIL",
         "heading_size": "h2",
