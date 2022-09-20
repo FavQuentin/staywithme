@@ -127,7 +127,7 @@
         "1663693184b4a96f3f-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/swm_logo.png",
+            "image": "shopify:\/\/shop_images\/87764A45-28C1-4988-B532-4333DD42D160_9d6cfa2d-d128-40ad-a975-2f3547d9fe36.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "GAGNE DES CADEAUX EN CUMULANT TES POINTS !",
@@ -138,7 +138,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         }
