@@ -181,8 +181,8 @@
         "16636930490ae9e787-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Livraison partout en France",
+            "icon": "plane",
             "row_content": "",
             "page": ""
           }
