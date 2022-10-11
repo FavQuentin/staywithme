@@ -159,13 +159,12 @@
     },
     "1663693049361d8985": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "16636930490ae9e787-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "",
-            "icon": "check_mark",
+            "heading": "Prix abordable",
+            "icon": "price_tag",
             "row_content": "",
             "page": ""
           }
@@ -173,8 +172,8 @@
         "16636930490ae9e787-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Qualité certifiée",
+            "icon": "leather",
             "row_content": "",
             "page": ""
           }
