@@ -66,11 +66,52 @@
         "color_scheme": "accent-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b6aec049-6517-4ab1-9926-79cde543721d": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--16008344207591__b6aec049-6517-4ab1-9926-79cde543721d-166549646395fddd36-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--16008344207591__b6aec049-6517-4ab1-9926-79cde543721d-166549646395fddd36-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--16008344207591__b6aec049-6517-4ab1-9926-79cde543721d-166549646395fddd36-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344207591__b6aec049-6517-4ab1-9926-79cde543721d-166549646395fddd36-0",
+        "template--16008344207591__b6aec049-6517-4ab1-9926-79cde543721d-166549646395fddd36-1",
+        "template--16008344207591__b6aec049-6517-4ab1-9926-79cde543721d-166549646395fddd36-2"
+      ],
+      "settings": {
+        "heading": "Les produits",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -159,6 +200,7 @@
     },
     "1663693049361d8985": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "16636930490ae9e787-0": {
           "type": "collapsible_row",
@@ -255,6 +297,7 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "b6aec049-6517-4ab1-9926-79cde543721d",
     "rich_text",
     "1663693184c928e662",
     "1663693049361d8985",
