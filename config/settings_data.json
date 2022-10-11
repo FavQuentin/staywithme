@@ -115,7 +115,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "2 ARTICLES ACHETÉS = LIVRAISON OFFERTE",
+              "text": "Livraison gratuite à partir de 50 euros",
               "color_scheme": "background-2",
               "link": ""
             }
