@@ -116,8 +116,8 @@
             "type": "announcement",
             "settings": {
               "text": "Livraison gratuite à partir de 50 euros",
-              "color_scheme": "background-2",
-              "link": ""
+              "color_scheme": "accent-1",
+              "link": "shopify:\/\/collections\/all"
             }
           }
         },
