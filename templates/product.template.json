@@ -204,6 +204,20 @@
         "padding_bottom": 36
       }
     },
+    "2fc17a16-0261-4f31-aca6-fcac46bbb9bc": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/shop-now-letter-board.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -365,6 +379,7 @@
     "38f24bb8-91cc-4f9a-9b5a-610f5030fca6",
     "912573e6-7b3d-4eed-bcd4-19869b47ed25",
     "d101dd70-0f36-4784-9244-4dd3cb823f5b",
+    "2fc17a16-0261-4f31-aca6-fcac46bbb9bc",
     "main",
     "multicolumn",
     "product-recommendations"
