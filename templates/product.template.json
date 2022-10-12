@@ -78,14 +78,14 @@
         "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Un confort inégalable",
             "heading_size": "h1"
           }
         },
         "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Une valeur sûre pour toutes les situations. Léger et agréable à porter.<\/p>",
             "text_style": "body"
           }
         },
@@ -103,6 +103,7 @@
         "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/PHOTO-2022-05-01-08-53-30.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
