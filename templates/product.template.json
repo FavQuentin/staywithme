@@ -104,7 +104,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/PHOTO-2022-05-01-08-53-30.jpg",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -147,6 +147,7 @@
         "template--16594494718183__912573e6-7b3d-4eed-bcd4-19869b47ed25-1665561804c6f859cd-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_5737.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
