@@ -38,11 +38,11 @@
         "template--16596098810087__a45caba5-fb8d-4906-a870-b8cb99627e54-1665586523c86e8b9b-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
+            "button_label_1": "RECEVOIR LA CARTE",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": true,
+            "button_label_2": "S'INSCRIRE",
+            "button_link_2": "shopify:\/\/pages\/contact",
             "button_style_secondary_2": false
           }
         }
