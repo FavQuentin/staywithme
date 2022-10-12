@@ -72,6 +72,124 @@
         "padding_bottom": 36
       }
     },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Matériaux",
+            "icon": "leather",
+            "content": "<p><strong>100% en coton brossé <\/strong><\/p><p><strong>357 g\/m2<\/strong><\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Expédition",
+            "icon": "truck",
+            "content": "<p>Click&Collect disponible sur Sainte Foy Les Lyon <\/p><p><\/p><p>Livraison en Point Relais Mondial Relay<\/p><p><\/p><p>Livraison à domicile Colissimo<\/p><p><\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Guides des tailles",
+            "icon": "ruler",
+            "content": "<p>Taille unique <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Entretiens",
+            "icon": "heart",
+            "content": "<p><strong>Tous nos produits sont issus de grandes qualités, afin de garder la durabilité de celui-ci.<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Partager {{ product.title }}"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
     "38f24bb8-91cc-4f9a-9b5a-610f5030fca6": {
       "type": "image-with-text",
       "blocks": {
@@ -218,124 +336,6 @@
         "padding_bottom": 36
       }
     },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Matériaux",
-            "icon": "leather",
-            "content": "<p><strong>100% en coton brossé <\/strong><\/p><p><strong>357 g\/m2<\/strong><\/p><p><\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Expédition",
-            "icon": "truck",
-            "content": "<p>Click&Collect disponible sur Sainte Foy Les Lyon <\/p><p><\/p><p>Livraison en Point Relais Mondial Relay<\/p><p><\/p><p>Livraison à domicile Colissimo<\/p><p><\/p><p><\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Guides des tailles",
-            "icon": "ruler",
-            "content": "<p>Taille unique <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Entretiens",
-            "icon": "heart",
-            "content": "<p><strong>Tous nos produits sont issus de grandes qualités, afin de garder la durabilité de celui-ci.<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Partager {{ product.title }}"
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "caption",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "stacked",
-        "media_size": "medium",
-        "mobile_thumbnails": "hide",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "disabled": true,
@@ -377,11 +377,11 @@
   "order": [
     "634a5f60-98bb-46f5-9378-fb2c8e50d9b5",
     "71f3a209-24b0-471b-8938-af92628d9268",
+    "main",
     "38f24bb8-91cc-4f9a-9b5a-610f5030fca6",
     "912573e6-7b3d-4eed-bcd4-19869b47ed25",
     "d101dd70-0f36-4784-9244-4dd3cb823f5b",
     "2fc17a16-0261-4f31-aca6-fcac46bbb9bc",
-    "main",
     "multicolumn",
     "product-recommendations"
   ]
