@@ -5,11 +5,22 @@
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "7e5c7b76-28e7-417c-958a-017e7d35b480": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7e5c7b76-28e7-417c-958a-017e7d35b480"
   ]
 }
