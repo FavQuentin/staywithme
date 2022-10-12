@@ -139,21 +139,11 @@
             "link_label": "VOIR PLUS",
             "link": "shopify:\/\/collections\/collection-twenty-five"
           }
-        },
-        "36d503c4-8ffb-48a2-bbe2-01841cef58f1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "bb5a735f-530b-44ae-9031-0db5bb68318d",
-        "8476b480-589f-49f0-9639-65ee96d987e2",
-        "36d503c4-8ffb-48a2-bbe2-01841cef58f1"
+        "8476b480-589f-49f0-9639-65ee96d987e2"
       ],
       "settings": {
         "title": "Collections SWM",
