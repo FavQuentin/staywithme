@@ -127,17 +127,17 @@
           "settings": {
             "title": "\"L'Inédit\"",
             "text": "<p>Collection de casquettes limitées avec un panels de \" couleurs <\/p>",
-            "link_label": "VOIR",
+            "link_label": "VOIR PLUS",
             "link": "shopify:\/\/collections\/linedit"
           }
         },
         "8476b480-589f-49f0-9639-65ee96d987e2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "\"Twenty-Five\"",
+            "text": "<p>Collection de lancement de t-shirts unisexes avec 3 modèles différents <\/p>",
+            "link_label": "VOIR PLUS",
+            "link": "shopify:\/\/collections\/collection-twenty-five"
           }
         },
         "36d503c4-8ffb-48a2-bbe2-01841cef58f1": {
