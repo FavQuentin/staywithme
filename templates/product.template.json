@@ -108,8 +108,8 @@
           "settings": {
             "heading": "Guides des tailles",
             "icon": "ruler",
-            "content": "<p>Taille unique <\/p>",
-            "page": ""
+            "content": "",
+            "page": "guide-des-tailles"
           }
         },
         "collapsible-row-3": {
