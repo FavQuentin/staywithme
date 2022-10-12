@@ -36,42 +36,6 @@
         "show_text_below": true
       }
     },
-    "71f3a209-24b0-471b-8938-af92628d9268": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Une qualité française",
-            "heading_size": "h2"
-          }
-        },
-        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nos valeurs respectent nos engagements à travers nos produits de haute qualité. Le fondateur de la marque vous propose sa gamme de produits unisexes exclusives à prix abordable pour tous. <\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-0",
-        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/flo_c4f75578-cd0c-4ffc-98b4-55738c45a1bf.jpg",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -188,6 +152,42 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "71f3a209-24b0-471b-8938-af92628d9268": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Une qualité française",
+            "heading_size": "h2"
+          }
+        },
+        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos valeurs respectent nos engagements à travers nos produits de haute qualité. Le fondateur de la marque vous propose sa gamme de produits unisexes exclusives à prix abordable pour tous. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-0",
+        "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flo_c4f75578-cd0c-4ffc-98b4-55738c45a1bf.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "d101dd70-0f36-4784-9244-4dd3cb823f5b": {
@@ -359,6 +359,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "Vous pourriez aimer :",
         "heading_size": "h2",
@@ -377,8 +378,8 @@
   },
   "order": [
     "634a5f60-98bb-46f5-9378-fb2c8e50d9b5",
-    "71f3a209-24b0-471b-8938-af92628d9268",
     "main",
+    "71f3a209-24b0-471b-8938-af92628d9268",
     "d101dd70-0f36-4784-9244-4dd3cb823f5b",
     "912573e6-7b3d-4eed-bcd4-19869b47ed25",
     "38f24bb8-91cc-4f9a-9b5a-610f5030fca6",
