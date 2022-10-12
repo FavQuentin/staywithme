@@ -69,7 +69,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "main": {
@@ -190,42 +190,42 @@
         "padding_bottom": 12
       }
     },
-    "38f24bb8-91cc-4f9a-9b5a-610f5030fca6": {
+    "d101dd70-0f36-4784-9244-4dd3cb823f5b": {
       "type": "image-with-text",
       "blocks": {
-        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-0": {
+        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-0": {
           "type": "heading",
           "settings": {
-            "heading": "Un confort inégalable",
+            "heading": "Évadez-vous dans notre univers",
             "heading_size": "h1"
           }
         },
-        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-1": {
+        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Une valeur sûre pour toutes les situations. Léger et agréable à porter.<\/p>",
+            "text": "<p>Voyagez avec les valeurs fortes de la marque. Laissez-vous transporter notre univers. Rester c'est exister, voyager, c'est vivre. <\/p>",
             "text_style": "body"
           }
         },
-        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-2": {
+        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-2": {
           "type": "button",
           "settings": {
             "button_label": "Voir plus",
-            "button_link": "shopify:\/\/products\/t-shirt-staywithme-beige-unisexe"
+            "button_link": "shopify:\/\/products\/t-shirt-blanc-unisexe"
           }
         }
       },
       "block_order": [
-        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-0",
-        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-1",
-        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-2"
+        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-0",
+        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-1",
+        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/PHOTO-2022-05-01-08-53-30.jpg",
-        "height": "large",
+        "image": "shopify:\/\/shop_images\/IMG_5134.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "accent-2",
@@ -278,42 +278,42 @@
         "padding_bottom": 36
       }
     },
-    "d101dd70-0f36-4784-9244-4dd3cb823f5b": {
+    "38f24bb8-91cc-4f9a-9b5a-610f5030fca6": {
       "type": "image-with-text",
       "blocks": {
-        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-0": {
+        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Évadez-vous dans notre univers",
+            "heading": "Un confort inégalable",
             "heading_size": "h1"
           }
         },
-        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-1": {
+        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Voyagez avec les valeurs fortes de la marque. Laissez-vous transporter notre univers. Rester c'est exister, voyager, c'est vivre. <\/p>",
+            "text": "<p>Une valeur sûre pour toutes les situations. Léger et agréable à porter.<\/p>",
             "text_style": "body"
           }
         },
-        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-2": {
+        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-2": {
           "type": "button",
           "settings": {
             "button_label": "Voir plus",
-            "button_link": "shopify:\/\/products\/t-shirt-blanc-unisexe"
+            "button_link": "shopify:\/\/products\/t-shirt-staywithme-beige-unisexe"
           }
         }
       },
       "block_order": [
-        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-0",
-        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-1",
-        "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-2"
+        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-0",
+        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-1",
+        "template--16594494718183__38f24bb8-91cc-4f9a-9b5a-610f5030fca6-1665561804c6f859cd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_5134.png",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/PHOTO-2022-05-01-08-53-30.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "accent-2",
@@ -379,9 +379,9 @@
     "634a5f60-98bb-46f5-9378-fb2c8e50d9b5",
     "71f3a209-24b0-471b-8938-af92628d9268",
     "main",
-    "38f24bb8-91cc-4f9a-9b5a-610f5030fca6",
-    "912573e6-7b3d-4eed-bcd4-19869b47ed25",
     "d101dd70-0f36-4784-9244-4dd3cb823f5b",
+    "912573e6-7b3d-4eed-bcd4-19869b47ed25",
+    "38f24bb8-91cc-4f9a-9b5a-610f5030fca6",
     "2fc17a16-0261-4f31-aca6-fcac46bbb9bc",
     "multicolumn",
     "product-recommendations"
