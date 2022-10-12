@@ -1,5 +1,41 @@
 {
   "sections": {
+    "634a5f60-98bb-46f5-9378-fb2c8e50d9b5": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "La mode se démode, le style jamais",
+            "heading_size": "h2"
+          }
+        },
+        "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-0",
+        "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/business-owner-working-on-online-store.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -156,6 +192,7 @@
     }
   },
   "order": [
+    "634a5f60-98bb-46f5-9378-fb2c8e50d9b5",
     "main",
     "multicolumn",
     "product-recommendations"
