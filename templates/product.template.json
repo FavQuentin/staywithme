@@ -180,8 +180,8 @@
         "template--16594494718183__d101dd70-0f36-4784-9244-4dd3cb823f5b-16655631342e4b05fc-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Voir plus",
+            "button_link": "shopify:\/\/products\/t-shirt-blanc-unisexe"
           }
         }
       },
