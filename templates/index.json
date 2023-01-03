@@ -183,11 +183,47 @@
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "10547a66-1af8-482f-8d2c-7f84458e0622": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "7dc778ce-18c7-4e2f-9c20-c96e1aba33cd": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "1663693184b4a96f3f-0",
-        "1663693184b4a96f3f-1"
+        "1663693184b4a96f3f-1",
+        "10547a66-1af8-482f-8d2c-7f84458e0622",
+        "7dc778ce-18c7-4e2f-9c20-c96e1aba33cd"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -271,10 +307,16 @@
             "feed_width": 100,
             "html_area": ""
           }
+        },
+        "703fae65-2b12-428f-a90c-15131703d75c": {
+          "type": "shopify:\/\/apps\/insurance-shipping-protection\/blocks\/app-embed\/75a10788-8b39-4a65-b3e7-1fe5b0daf330",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed"
+        "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed",
+        "703fae65-2b12-428f-a90c-15131703d75c"
       ],
       "settings": {
         "include_margins": true
