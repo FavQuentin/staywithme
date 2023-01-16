@@ -23,9 +23,8 @@
         "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/business-owner-working-on-online-store.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_overlay_opacity": 100,
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
