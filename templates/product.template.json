@@ -99,7 +99,7 @@
           "settings": {
             "heading": "Expédition",
             "icon": "truck",
-            "content": "<p>Click&Collect disponible sur Sainte Foy Les Lyon <\/p><p><\/p><p>Livraison en Point Relais Mondial Relay<\/p><p><\/p><p>Livraison à domicile Colissimo<\/p><p><\/p><p><\/p>",
+            "content": "<p><strong>Click&Collect disponible sur Sainte Foy Les Lyon <\/strong><\/p><p><\/p><p><strong>Livraison en Point Relais Mondial Relay<\/strong><\/p><p><\/p><p><strong>Livraison à domicile Colissimo<\/strong><\/p><p><\/p><p><\/p>",
             "page": ""
           }
         },
@@ -108,7 +108,7 @@
           "settings": {
             "heading": "Guides des tailles",
             "icon": "ruler",
-            "content": "",
+            "content": "<ul><li>Half Chest = Demi-poitrine<\/li><li>Body Length = Longueur du corps <\/li><li>Sleeve Length = Longueur des manches <\/li><\/ul>",
             "page": "guide-des-tailles"
           }
         },
