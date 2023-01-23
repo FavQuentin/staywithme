@@ -98,11 +98,10 @@
           "settings": {
           }
         },
-        "fa655e43-6af7-4143-9d98-c5883cf9aece": {
-          "type": "popup",
+        "bb74fa01-c2af-445f-b474-20d8bb1b54b4": {
+          "type": "rating",
+          "disabled": true,
           "settings": {
-            "text": "10% de remise immédiate avec le code SWM10",
-            "page": "code-promo"
           }
         },
         "collapsible-row-0": {
@@ -119,7 +118,7 @@
           "settings": {
             "heading": "Expédition",
             "icon": "truck",
-            "content": "<p>Click&Collect disponible sur Sainte Foy Les Lyon <\/p><p><\/p><p>Livraison en Point Relais Mondial Relay<\/p><p><\/p><p>Livraison à domicile Colissimo<\/p><p><\/p><p><\/p>",
+            "content": "<p><strong>Click&Collect disponible sur Sainte Foy Les Lyon <\/strong><\/p><p><\/p><p><strong>Livraison en Point Relais Mondial Relay<\/strong><\/p><p><\/p><p><strong>Livraison à domicile Colissimo<\/strong><\/p><p><\/p><p><\/p>",
             "page": ""
           }
         },
@@ -128,7 +127,7 @@
           "settings": {
             "heading": "Guides des tailles",
             "icon": "ruler",
-            "content": "<p>Taille unique <\/p>",
+            "content": "<p><strong>Taille unique <\/strong><\/p>",
             "page": ""
           }
         },
@@ -157,7 +156,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "fa655e43-6af7-4143-9d98-c5883cf9aece",
+        "bb74fa01-c2af-445f-b474-20d8bb1b54b4",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
