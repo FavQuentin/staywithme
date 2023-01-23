@@ -108,7 +108,7 @@
           "settings": {
             "heading": "Guides des tailles",
             "icon": "ruler",
-            "content": "<ul><li>Half Chest = Demi-poitrine<\/li><li>Body Length = Longueur du corps <\/li><li>Sleeve Length = Longueur des manches <\/li><\/ul>",
+            "content": "<ul><li><strong>Half Chest = Demi-poitrine<\/strong><\/li><li><strong>Body Length = Longueur du corps <\/strong><\/li><li><strong>Sleeve Length = Longueur des manches <\/strong><\/li><\/ul>",
             "page": "guide-des-tailles"
           }
         },
