@@ -3,7 +3,7 @@
 {% if sb_res_check_custom_ids == 1 %} {% assign sb_res_check_custom_ids = true  %} {% else %} {% assign sb_res_check_custom_ids = false  %} {% endif %}
 {%- if template contains "404" -%}
 {%- elsif template contains "index" -%}
-{% capture secomapp_index_s %}{{ page_description | strip_html | strip}}  {{ shop.name | strip_html | strip}} {% endcapture %}
+{% capture secomapp_index_s %}Stay With Me | Marque de vêtement et accessoire en ligne | Production biologique et éco-responsable | Production française | Click and Collect disponible | Stay With Me est une marque originale.{% endcapture %}
 <meta name="description" content="{{secomapp_index_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
 
 {%- elsif template contains "product" -%}
