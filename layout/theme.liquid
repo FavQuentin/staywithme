@@ -210,7 +210,8 @@
     </script>
     <script src="https://shopoe.net/app.js"></script>
 {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
-</head>
+{% include 'swift_core' %} 
+ </head>
 
   <body class="gradient">
     {%- render 'popup' -%}
