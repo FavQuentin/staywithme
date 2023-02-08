@@ -35,9 +35,9 @@
         "22e8d4d4-f041-40b8-a333-579bc868409b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_5083.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/IMG_5737.png",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -307,16 +307,10 @@
             "feed_width": 100,
             "html_area": ""
           }
-        },
-        "703fae65-2b12-428f-a90c-15131703d75c": {
-          "type": "shopify:\/\/apps\/insurance-shipping-protection\/blocks\/app-embed\/75a10788-8b39-4a65-b3e7-1fe5b0daf330",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed",
-        "703fae65-2b12-428f-a90c-15131703d75c"
+        "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed"
       ],
       "settings": {
         "include_margins": true
