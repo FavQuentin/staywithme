@@ -150,8 +150,8 @@
         "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "71f3a209-24b0-471b-8938-af92628d9268": {
@@ -177,7 +177,6 @@
         "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/flo_c4f75578-cd0c-4ffc-98b4-55738c45a1bf.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
