@@ -132,13 +132,13 @@
         "settings": {
           "color_scheme": "inverse",
           "logo": "shopify:\/\/shop_images\/swm_logo_2ed28cb5-65f1-417a-8625-1f607113e30d.png",
-          "logo_width": 110,
+          "logo_width": 130,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
-          "margin_bottom": 0
+          "margin_bottom": 24
         }
       },
       "footer": {
