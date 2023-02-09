@@ -144,55 +144,6 @@
         "padding_bottom": 44
       }
     },
-    "e16f366d-0c52-43bc-a528-1751451050a1": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16008344207591__e16f366d-0c52-43bc-a528-1751451050a1-167593349359bd37d1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "DÉTAILS",
-            "heading_size": "h1"
-          }
-        },
-        "template--16008344207591__e16f366d-0c52-43bc-a528-1751451050a1-167593349359bd37d1-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16008344207591__e16f366d-0c52-43bc-a528-1751451050a1-167593349359bd37d1-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "VOIR PLUS",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16008344207591__e16f366d-0c52-43bc-a528-1751451050a1-167593349359bd37d1-0",
-        "template--16008344207591__e16f366d-0c52-43bc-a528-1751451050a1-167593349359bd37d1-1",
-        "template--16008344207591__e16f366d-0c52-43bc-a528-1751451050a1-167593349359bd37d1-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/sim_vip_bc1adda1-0969-41a6-b2e2-49c0b867c85e.png",
-        "image_2": "shopify:\/\/shop_images\/sim_vip.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "1663693184c928e662": {
       "type": "slideshow",
       "disabled": true,
@@ -379,7 +330,6 @@
     "featured_collection",
     "b6aec049-6517-4ab1-9926-79cde543721d",
     "rich_text",
-    "e16f366d-0c52-43bc-a528-1751451050a1",
     "1663693184c928e662",
     "1663693049361d8985",
     "1654292859dfb30534",
