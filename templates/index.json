@@ -1,5 +1,11 @@
 {
   "sections": {
+    "6f4ce742-d8b3-469b-97fc-311e55546261": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -46,6 +52,12 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "bcbc1ef6-9611-4f43-8520-f62ea4d54926": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
       }
     },
     "featured_collection": {
@@ -326,7 +338,9 @@
     }
   },
   "order": [
+    "6f4ce742-d8b3-469b-97fc-311e55546261",
     "image_banner",
+    "bcbc1ef6-9611-4f43-8520-f62ea4d54926",
     "featured_collection",
     "b6aec049-6517-4ab1-9926-79cde543721d",
     "rich_text",
