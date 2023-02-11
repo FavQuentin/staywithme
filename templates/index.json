@@ -53,7 +53,7 @@
       "settings": {
         "title": "\"L'inédit\"",
         "heading_size": "h1",
-        "description": "<p>COLLECTION LIMITÉE !<\/p><p><\/p>",
+        "description": "<p><\/p><p><\/p>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "linedit",
