@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Matériaux",
             "icon": "leather",
-            "content": "<p><strong>100% en coton brossé <\/strong><\/p><p><strong>357 g\/m2<\/strong><\/p><p><\/p>",
+            "content": "<p>Polyester : 65%<\/p><p>Élasthanne : 35%<strong> <\/strong><\/p><p><\/p><p><\/p>",
             "page": ""
           }
         },
@@ -90,11 +90,6 @@
           "settings": {
             "share_label": "Partager {{ product.title }}"
           }
-        },
-        "judgeme_preview_badge_product_page_eb82ce9e": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -102,7 +97,6 @@
         "title",
         "caption",
         "price",
-        "judgeme_preview_badge_product_page_eb82ce9e",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -122,6 +116,12 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "judgeme_section_review_widget_e3c4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "multicolumn": {
@@ -158,22 +158,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "judgeme_section_review_widget_e3c4": {
-      "type": "apps",
-      "blocks": {
-        "judgeme_review_widget_5fb645a7": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judgeme_review_widget_5fb645a7"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
