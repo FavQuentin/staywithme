@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Guides des tailles",
             "icon": "ruler",
-            "content": "<p>Taille unique <\/p>",
+            "content": "<p>Mannequin : 1m80<\/p><p>Taille : S<\/p>",
             "page": ""
           }
         },
@@ -81,8 +81,8 @@
           "settings": {
             "heading": "Entretiens",
             "icon": "heart",
-            "content": "<p><strong>Tous nos produits sont issus de grandes qualités, afin de garder la durabilité de celui-ci.<\/strong><\/p>",
-            "page": ""
+            "content": "",
+            "page": "entretien"
           }
         },
         "share": {
