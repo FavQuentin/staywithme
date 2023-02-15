@@ -101,13 +101,13 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/swm_logo_2ed28cb5-65f1-417a-8625-1f607113e30d.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
-    "checkout_body_background_color": "#999999",
+    "checkout_body_background_color": "#000000",
     "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#999999",
+    "checkout_sidebar_background_color": "#ffd700",
     "checkout_heading_font": "Helvetica Neue",
     "checkout_body_font": "Helvetica Neue",
-    "checkout_accent_color": "#666666",
-    "checkout_button_color": "#666666",
+    "checkout_accent_color": "#ffd700",
+    "checkout_button_color": "#ffd700",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
