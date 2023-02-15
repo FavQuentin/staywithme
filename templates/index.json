@@ -56,9 +56,8 @@
     },
     "bcbc1ef6-9611-4f43-8520-f62ea4d54926": {
       "type": "judgeme_carousel_section",
-      "disabled": true,
       "settings": {
-        "maxwidth": 1080
+        "maxwidth": 1920
       }
     },
     "featured_collection": {
@@ -80,7 +79,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": true,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
