@@ -75,7 +75,7 @@
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -85,6 +85,12 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "a25292e4-40a4-40fb-8586-0278a22fac9d": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
       }
     },
     "featured_collection": {
@@ -369,6 +375,7 @@
     "image_banner",
     "bcbc1ef6-9611-4f43-8520-f62ea4d54926",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
+    "a25292e4-40a4-40fb-8586-0278a22fac9d",
     "featured_collection",
     "b6aec049-6517-4ab1-9926-79cde543721d",
     "rich_text",
