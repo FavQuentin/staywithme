@@ -60,6 +60,33 @@
         "maxwidth": 1920
       }
     },
+    "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Surchemise",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "surchemise-staywithme",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -341,6 +368,7 @@
     "6f4ce742-d8b3-469b-97fc-311e55546261",
     "image_banner",
     "bcbc1ef6-9611-4f43-8520-f62ea4d54926",
+    "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "featured_collection",
     "b6aec049-6517-4ab1-9926-79cde543721d",
     "rich_text",
