@@ -88,6 +88,54 @@
         "padding_bottom": 36
       }
     },
+    "56d6aa0d-e495-4397-b266-19c89a7c5917": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-0",
+        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-1",
+        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-02-12_18.23.34.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "a25292e4-40a4-40fb-8586-0278a22fac9d": {
       "type": "judgeme_carousel_section",
       "settings": {
@@ -376,6 +424,7 @@
     "image_banner",
     "bcbc1ef6-9611-4f43-8520-f62ea4d54926",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
+    "56d6aa0d-e495-4397-b266-19c89a7c5917",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
     "featured_collection",
     "b6aec049-6517-4ab1-9926-79cde543721d",
