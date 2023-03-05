@@ -126,6 +126,43 @@
         "show_text_below": false
       }
     },
+    "6175a9f7-8ab6-472d-8b6f-006226e1629e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "-20% sur toutes nos casquettes !",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-0",
+        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-1",
+        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "a25292e4-40a4-40fb-8586-0278a22fac9d": {
       "type": "judgeme_carousel_section",
       "settings": {
@@ -416,6 +453,7 @@
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "aca3c5ed-0140-440a-b6ac-adf26f24907a",
     "56d6aa0d-e495-4397-b266-19c89a7c5917",
+    "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
     "featured_collection",
     "b6aec049-6517-4ab1-9926-79cde543721d",
