@@ -95,8 +95,8 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PULL À CAPUCHE - COEUR CASSÉ",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_link_1": "shopify:\/\/products\/pull-a-capuche-blanc-coeur-casse-swm",
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
