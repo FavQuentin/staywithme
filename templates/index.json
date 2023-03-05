@@ -91,20 +91,6 @@
     "56d6aa0d-e495-4397-b266-19c89a7c5917": {
       "type": "image-banner",
       "blocks": {
-        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-1": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-2": {
           "type": "buttons",
           "settings": {
@@ -118,14 +104,12 @@
         }
       },
       "block_order": [
-        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-0",
-        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-1",
         "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-2"
       ],
       "settings": {
         "image_2": "shopify:\/\/shop_images\/2023-02-12_18.20.33.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
