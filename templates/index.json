@@ -126,6 +126,12 @@
         "show_text_below": false
       }
     },
+    "1bc3d55a-8b1c-416e-a190-90af9bbeb32e": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
+      }
+    },
     "6175a9f7-8ab6-472d-8b6f-006226e1629e": {
       "type": "rich-text",
       "blocks": {
@@ -166,7 +172,7 @@
     "a25292e4-40a4-40fb-8586-0278a22fac9d": {
       "type": "judgeme_carousel_section",
       "settings": {
-        "maxwidth": 1080
+        "maxwidth": 1720
       }
     },
     "featured_collection": {
@@ -454,6 +460,7 @@
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "aca3c5ed-0140-440a-b6ac-adf26f24907a",
     "56d6aa0d-e495-4397-b266-19c89a7c5917",
+    "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
     "featured_collection",
