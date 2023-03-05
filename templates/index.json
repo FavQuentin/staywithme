@@ -94,24 +94,24 @@
         "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "",
             "text_style": "body"
           }
         },
         "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "PULL À CAPUCHE - COEUR CASSÉ",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
