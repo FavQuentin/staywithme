@@ -77,7 +77,7 @@
         "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "accent-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
