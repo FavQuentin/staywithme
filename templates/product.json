@@ -27,12 +27,6 @@
           "settings": {
           }
         },
-        "judgeme_preview_badge_product_page_578d8d8c": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -60,7 +54,7 @@
           "settings": {
             "heading": "Matériaux",
             "icon": "leather",
-            "content": "<p>Polyester : 65%<\/p><p>Élasthanne : 35%<strong> <\/strong><\/p><p><\/p><p><\/p>",
+            "content": "<p><strong>100 % Coton<\/strong><\/p><p><\/p><p><\/p>",
             "page": ""
           }
         },
@@ -103,7 +97,6 @@
         "title",
         "caption",
         "price",
-        "judgeme_preview_badge_product_page_578d8d8c",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -127,17 +120,6 @@
     },
     "judgeme_section_review_widget_acc1": {
       "type": "apps",
-      "blocks": {
-        "judgeme_review_widget_e8fb7757": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judgeme_review_widget_e8fb7757"
-      ],
       "settings": {
         "include_margins": true
       }
