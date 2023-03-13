@@ -46,6 +46,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -90,6 +91,16 @@
           "settings": {
             "share_label": "Partager {{ product.title }}"
           }
+        },
+        "ed2ca446-6a2f-4314-a2f4-710b7fd5ffa1": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "2991a768-156e-4a7e-af4d-aadadfb6a777": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -105,7 +116,9 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "ed2ca446-6a2f-4314-a2f4-710b7fd5ffa1",
+        "2991a768-156e-4a7e-af4d-aadadfb6a777"
       ],
       "settings": {
         "enable_sticky_info": true,
