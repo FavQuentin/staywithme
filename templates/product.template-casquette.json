@@ -95,11 +95,6 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
-        },
-        "bb74fa01-c2af-445f-b474-20d8bb1b54b4": {
-          "type": "rating",
           "disabled": true,
           "settings": {
           }
@@ -145,6 +140,21 @@
           "settings": {
             "share_label": "Partager {{ product.title }}"
           }
+        },
+        "5cffb677-9f7a-4d68-903d-a10ba405ce78": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        },
+        "fa0208bb-4ef9-46b9-8fe2-b47b970948a4": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffd700",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "AVIS CLIENT"
+          }
         }
       },
       "block_order": [
@@ -156,12 +166,13 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "bb74fa01-c2af-445f-b474-20d8bb1b54b4",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "5cffb677-9f7a-4d68-903d-a10ba405ce78",
+        "fa0208bb-4ef9-46b9-8fe2-b47b970948a4"
       ],
       "settings": {
         "enable_sticky_info": true,
