@@ -124,7 +124,7 @@
       "vendor": "Distributeur",
       "video_exit_message": "{{ title }} ouvre la vidéo en plein écran dans la même fenêtre.",
       "xr_button": "Afficher dans son espace",
-      "xr_button_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée",
+      "xr_button_label": "Affichage dans ton espace, charge l'article dans une fenêtre de réalité augmentée",
       "pickup_availability": {
         "view_store_info": " ",
         "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
