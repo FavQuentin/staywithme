@@ -84,7 +84,7 @@
         "one": "{{ count }} commentaire",
         "other": "{{ count }} commentaires"
       },
-      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être publiés.",
+      "moderated": "Noter que les commentaires doivent être approuvés avant d'être publiés.",
       "comment_form_title": "Laisser un commentaire",
       "name": "Nom",
       "email": "E-mail",
@@ -92,8 +92,8 @@
       "post": "Publier le commentaire",
       "back_to_blog": "Retour au blog",
       "share": "Partager cet article",
-      "success": "Votre commentaire a bien été publié ! Merci !",
-      "success_moderated": "Votre commentaire a bien été publié. Nous le publierons sous peu, conformément au processus de modération de notre blog."
+      "success": "Ton commentaire a bien été publié ! Merci !",
+      "success_moderated": "Ton commentaire a bien été publié. Nous le publierons sous peu, conformément au processus de modération de notre blog."
     }
   },
   "onboarding": {
