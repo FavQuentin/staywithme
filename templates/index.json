@@ -30,7 +30,7 @@
             "subheading": "...vis comme si tu allais mourir aujourd'hui\"",
             "button_label": "FOREVER 🕊",
             "link": "shopify:\/\/products\/pull-a-capuche-forever-swm",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "top-right",
             "show_text_box": false,
             "text_alignment": "center",
