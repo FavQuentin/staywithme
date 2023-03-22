@@ -50,12 +50,12 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
+        "e2afabba-7b41-4edd-9a2e-9c2cec45fc96": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Matériaux",
             "icon": "leather",
-            "content": "<p><strong>Coton : 65<\/strong><\/p><p><strong>Polyester : 35%<\/strong><\/p><p><\/p><p><\/p>",
+            "content": "<p><strong>100% coton<\/strong><\/p>",
             "page": ""
           }
         },
@@ -94,7 +94,6 @@
         },
         "07ad7dca-1e01-4947-aa3f-98c3632f57d3": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
           "settings": {
           }
         }
@@ -108,7 +107,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
+        "e2afabba-7b41-4edd-9a2e-9c2cec45fc96",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
