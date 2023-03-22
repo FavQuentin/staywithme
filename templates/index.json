@@ -9,16 +9,16 @@
             "image": "shopify:\/\/shop_images\/2023-02-04_16.57.39.jpg",
             "heading": "",
             "heading_size": "h0",
-            "subheading": "\"Rêve comme si tu vivais éternellement, vis comme si tu allais mourir aujourd'hui\"",
+            "subheading": "\"Rêve comme si tu vivais éternellement...",
             "button_label": "FOREVER",
             "link": "shopify:\/\/products\/pull-a-capuche-forever-swm",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-right",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "right",
             "image_overlay_opacity": 20,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "right"
           }
         },
         "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-1": {
@@ -36,7 +36,7 @@
             "text_alignment": "center",
             "image_overlay_opacity": 20,
             "color_scheme": "background-2",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         }
       },
