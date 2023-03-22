@@ -79,56 +79,6 @@
         "maxwidth": 1080
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "22e8d4d4-f041-40b8-a333-579bc868409b": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "FOREVER",
-            "button_link_1": "shopify:\/\/products\/pull-a-capuche-forever-swm",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "22e8d4d4-f041-40b8-a333-579bc868409b"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-02-04_16.57.39.jpg",
-        "image_2": "shopify:\/\/shop_images\/2023-02-04_16.49.29.jpg",
-        "image_overlay_opacity": 50,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "bcbc1ef6-9611-4f43-8520-f62ea4d54926": {
       "type": "judgeme_carousel_section",
       "settings": {
@@ -166,38 +116,6 @@
       "type": "judgeme_carousel_section",
       "settings": {
         "maxwidth": 1080
-      }
-    },
-    "56d6aa0d-e495-4397-b266-19c89a7c5917": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "COEUR BRISÉ",
-            "button_link_1": "shopify:\/\/products\/pull-a-capuche-coeur-brise-swm",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16008344207591__56d6aa0d-e495-4397-b266-19c89a7c5917-167805034738df7ef8-2"
-      ],
-      "settings": {
-        "image_2": "shopify:\/\/shop_images\/2023-02-12_18.20.33.jpg",
-        "image_overlay_opacity": 50,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e": {
@@ -530,11 +448,9 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
-    "image_banner",
     "bcbc1ef6-9611-4f43-8520-f62ea4d54926",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "aca3c5ed-0140-440a-b6ac-adf26f24907a",
-    "56d6aa0d-e495-4397-b266-19c89a7c5917",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
