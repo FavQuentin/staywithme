@@ -79,12 +79,6 @@
         "maxwidth": 1080
       }
     },
-    "bcbc1ef6-9611-4f43-8520-f62ea4d54926": {
-      "type": "judgeme_carousel_section",
-      "settings": {
-        "maxwidth": 1920
-      }
-    },
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
       "type": "featured-collection",
       "settings": {
@@ -110,12 +104,6 @@
         "swipe_on_mobile": true,
         "padding_top": 12,
         "padding_bottom": 0
-      }
-    },
-    "aca3c5ed-0140-440a-b6ac-adf26f24907a": {
-      "type": "judgeme_carousel_section",
-      "settings": {
-        "maxwidth": 1080
       }
     },
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e": {
@@ -447,9 +435,7 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
-    "bcbc1ef6-9611-4f43-8520-f62ea4d54926",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
-    "aca3c5ed-0140-440a-b6ac-adf26f24907a",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
