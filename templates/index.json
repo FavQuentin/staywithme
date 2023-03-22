@@ -38,19 +38,38 @@
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
+        },
+        "411a24c2-32d8-4cb6-b9e3-d6a0b42db392": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-02-12_18.20.33.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "CŒUR BRISÉ",
+            "link": "shopify:\/\/products\/pull-a-capuche-coeur-brise-swm",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-0",
-        "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-1"
+        "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-1",
+        "411a24c2-32d8-4cb6-b9e3-d6a0b42db392"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 3,
-        "show_text_below": false,
+        "show_text_below": true,
         "accessibility_info": "Pull à capuche"
       }
     },
@@ -62,6 +81,7 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
