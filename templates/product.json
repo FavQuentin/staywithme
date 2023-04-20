@@ -95,7 +95,7 @@
             "share_label": "Partager {{ product.title }}"
           }
         },
-        "07ad7dca-1e01-4947-aa3f-98c3632f57d3": {
+        "2d423583-a90e-4557-96da-b7654a36fbf5": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
@@ -115,7 +115,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "07ad7dca-1e01-4947-aa3f-98c3632f57d3"
+        "2d423583-a90e-4557-96da-b7654a36fbf5"
       ],
       "settings": {
         "enable_sticky_info": true,
