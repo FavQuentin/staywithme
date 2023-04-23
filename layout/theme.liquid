@@ -44,7 +44,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    {{ content_for_header }}
+    {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
