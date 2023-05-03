@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "e2afabba-7b41-4edd-9a2e-9c2cec45fc96": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Matériaux",
+            "icon": "leather",
+            "content": "<p><strong>100% coton<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Expédition",
+            "icon": "truck",
+            "content": "<p>Click&Collect disponible sur Sainte Foy Les Lyon <\/p><p><\/p><p>Livraison en Point Relais Mondial Relay<\/p><p><\/p><p>Livraison à domicile Colissimo<\/p><p><\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Guides des tailles",
+            "icon": "ruler",
+            "content": "<p>Mannequin : 1m80<\/p><p>Taille : S<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Entretiens",
+            "icon": "heart",
+            "content": "",
+            "page": "entretien"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Partager {{ product.title }}"
+          }
+        },
+        "2d423583-a90e-4557-96da-b7654a36fbf5": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "e2afabba-7b41-4edd-9a2e-9c2cec45fc96",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share",
+        "2d423583-a90e-4557-96da-b7654a36fbf5"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "judgeme_section_review_widget_acc1": {
+      "type": "apps",
+      "blocks": {
+        "5768104e-22f7-4fea-8de3-a5eaf3da51b6": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffd700",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "AVIS CLIENT"
+          }
+        }
+      },
+      "block_order": [
+        "5768104e-22f7-4fea-8de3-a5eaf3da51b6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Vous pourriez aimer :",
+        "heading_size": "h2",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "color_scheme": "accent-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "judgeme_section_review_widget_acc1",
+    "multicolumn",
+    "product-recommendations"
+  ]
+}
