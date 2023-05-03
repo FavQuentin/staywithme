@@ -143,14 +143,14 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/PHOTO-2022-05-01-08-53-29_2_79f99367-0d32-494d-9088-b00cbe3d5a7a.jpg",
-            "heading": "Image slide",
+            "heading": "VÊTEMENTS",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "TOUT VOIR",
             "link": "shopify:\/\/collections\/collection-twenty-five",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -160,17 +160,18 @@
         "template--16008344207591__f6c2c926-a90a-40ea-be27-cb31a8211e3c-1683128474a2f8894b-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/IMG_5737.png",
+            "heading": "ACCESSOIRES",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "",
+            "button_label": "TOUT VOIR",
+            "link": "shopify:\/\/collections\/linedit",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         }
