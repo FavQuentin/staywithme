@@ -1,0 +1,647 @@
+{% comment %}
+	GEMPAGE BUILDER (https://apps.shopify.com/gempage)
+
+	You SHOULD NOT modify source code in this page because
+	It is automatically generated from GEMPAGE BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
+<!--GEM_HEADER-->
+
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" class="gf-style">
+<link data-instant-track rel="stylesheet" type="text/css" href="https://d1um8515vdn9kb.cloudfront.net/files/vendor.css?refresh=1" class="gf-style" />
+<link data-instant-track rel="stylesheet" type="text/css" href="{{ 'gem-page-120755257675.css' | asset_url }}" class="gf_page_style">
+<!--GEM_HEADER_END-->
+<div class="gryffeditor">
+  <div data-label="Text Block" class="element-wrap" data-description data-key="text-block"> <div class="elm text-edit"><style>
+    #form-gdpr-edit-account-request,
+    #form-gdpr-data-account-request,
+    #form-gdpr-personal-data-report-request,
+    #form-gdpr-delete-account-request {
+        display: none;
+    }
+    #gdpr_page button {
+      background-color: transparent;
+      border: 0;
+      border-bottom: 1px solid black;
+      padding: 0px;
+    }    /* Modal background */
+    #data-verification-background {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: calc(50vh - 83px);
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0,0.4);
+      opacity: unset;
+      z-index: 9999;
+    }
+    /* Modal Content */
+    #data-verification-modal {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 16px;
+      border: 1px solid #888;
+      width: 38%;
+      opacity: 1;
+    }
+    /* Modal Close Button */
+    .data-verification-close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 17px;
+      background-color: transparent;
+      border: 0px;
+      padding: 0px;
+    }
+    .data-verification-close:hover {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    /* Checkbox Text */
+    #data-verification-container p {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      line-height: 24px;
+      padding-left: 10px;
+      vertical-align: top;
+      width: calc(100% - 45px);
+    }
+    #data-verification-container a, #data-verification-container a:hover{
+      text-decoration: underline!important;
+      color: #4285f4;
+    }
+    #data-verification-container input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      margin: 0;
+      padding: 0;
+    }
+    /* Checkbox Icon */
+    #data-verification-icon {
+      cursor: pointer;
+      position: relative;
+      margin: auto;
+      width: 18px;
+      height: 18px;
+      -webkit-tap-highlight-color: transparent;
+      transform: translate3d(0, 0, 0);
+      margin-top: 2px;
+    }
+    #data-verification-icon:before {
+      content: "";
+      position: absolute;
+      top: -7px;
+      left: -7px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(34,50,84,0.03);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    #data-verification-icon svg {
+      position: relative;
+      z-index: 1;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke: #c8ccd4;
+      stroke-width: 1.5;
+      transform: translate3d(0, 0, 0);
+      transition: all 0.2s ease;
+    }
+    #data-verification-icon svg path {
+      stroke-dasharray: 60;
+      stroke-dashoffset: 0;
+    }
+    #data-verification-icon svg polyline {
+      stroke-dasharray: 22;
+      stroke-dashoffset: 66;
+    }
+    #data-verification-icon:hover:before {
+      opacity: 1;
+    }
+    #data-verification-container:hover #data-verification-icon svg {
+      stroke: #4285f4;
+    }
+    #data-verification-icon.clicked svg {
+      stroke: #4285f4;
+    }
+    #data-verification-icon.clicked svg path {
+      stroke-dashoffset: 60;
+      transition: all 0.3s linear;
+    }
+    #data-verification-icon.clicked svg polyline {
+      stroke-dashoffset: 42;
+      transition: all 0.2s linear;
+      transition-delay: 0.15s;
+    }    /* Accessibility design */
+    #data-verification-icon:focus, .data-verification-close:focus, #data-verification-container input:focus ~ #data-verification-icon svg, #data-verification-container a:focus {
+      box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+      transition: all 0.3s ease;
+      outline: none;
+      transform: scale(1.06);
+    }    /* Loading Element */
+    .loading {
+        display: none;
+        top:50vh;
+        left:50vw;
+        position:fixed;
+    }
+    .loading:not(:required):after {
+      content: '';
+      display: block;
+      font-size: 10px;
+      width: 1em;
+      height: 1em;
+      margin-top: -0.5em;
+      -webkit-animation: spinner 1500ms infinite linear;
+      -moz-animation: spinner 1500ms infinite linear;
+      -ms-animation: spinner 1500ms infinite linear;
+      -o-animation: spinner 1500ms infinite linear;
+      animation: spinner 1500ms infinite linear;
+      border-radius: 0.5em;
+      -webkit-box-shadow: rgba(255,255,255, 1) 1.5em 0 0 0, rgba(255,255,255, 1) 1.1em 1.1em 0 0, rgba(255,255,255, 1) 0 1.5em 0 0, rgba(255,255,255, 1) -1.1em 1.1em 0 0, rgba(255,255,255, 1) -1.5em 0 0 0, rgba(255,255,255, 1) -1.1em -1.1em 0 0, rgba(255,255,255, 1) 0 -1.5em 0 0, rgba(255,255,255, 1) 1.1em -1.1em 0 0;
+      box-shadow: rgba(255,255,255, 1) 1.5em 0 0 0, rgba(255,255,255, 1) 1.1em 1.1em 0 0, rgba(255,255,255, 1) 0 1.5em 0 0, rgba(255,255,255, 1) -1.1em 1.1em 0 0, rgba(255,255,255, 1) -1.5em 0 0 0, rgba(255,255,255, 1) -1.1em -1.1em 0 0, rgba(255,255,255, 1) 0 -1.5em 0 0, rgba(255,255,255, 1) 1.1em -1.1em 0 0;
+    }
+    #gdpr_page .list-unstyled li button {
+      cursor: pointer;
+    }
+    .show-isense {
+      transition: opacity 400ms !important;
+    }
+    .hide-isense {
+      opacity: 0 !important;
+      transition: 0.4s ease-out;
+    }    /* Modal changes on mobile resolution*/
+    @media only screen and (max-width: 600px) {
+      #data-verification-modal {
+        width: 90%;
+      }
+    }    /* Animation */
+    @-webkit-keyframes spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+    @-moz-keyframes spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+    @-o-keyframes spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+<div id="gdpr_page" class="col-sm-12">
+    <div class="text-center">
+      The app used for assuring the GDPR/LGPD/CCPA-CPRA/VCDPA/APPI/PIPEDA compliance of this site, collects your IP and the email address in order to process the data. For more check <a href="https://gdprcdn.b-cdn.net/pages/privacy_policy" target="_blank" aria-label="Privacy Policy &amp; Terms of Service link (opens in a new tab)"> Privacy Policy &amp; Terms of Service</a><a>
+    </a>
+</div>
+    <h2>Data Rectification</h2>
+    <p>You can use the link below to update your account data if it is not accurate.</p>
+    <ul id="gdpr_rectification_compliance_requests" class="gdpr-compliance-requests list-unstyled">
+        <li><button id="btn-gdpr-edit-account-request" aria-label="edit your account information" aria-controls="form-gdpr-edit-account-request" aria-expanded="false">Edit your account information</button></li>
+    </ul>
+    <div id="form-gdpr-edit-account-request" class="form-gdpr-request">
+        <form>
+            <label for="form-gdpr-edit-account-request-email">Enter your email to confirm your identity</label>
+            <input type="email" name="email" id="form-gdpr-edit-account-request-email" placeholder="example@email.com" autocomplete="email" autocorrect="off" autocapitalize="off" autofocus="">
+            <input type="submit" id="form-gdpr-edit-account-request-submit" class="btn" value="Submit">
+        </form>
+    </div>
+    <h2>Data Portability</h2>
+    <p>You can use the links below to download all the data we store and use for a better experience in our store.</p>
+    <ul id="gdpr_portability_compliance_requests" class="gdpr-compliance-requests list-unstyled">
+      <li><button id="btn-gdpr-requests-request" aria-label="GDPR requests" aria-controls="form-gdpr-data-account-request" aria-expanded="false">GDPR requests</button></li>
+      <li><button id="btn-gdpr-personal-information-request" aria-label="personal information" aria-controls="form-gdpr-data-account-request" aria-expanded="false">Personal information</button></li>
+      <li><button id="btn-gdpr-orders-request" aria-label="orders" aria-controls="form-gdpr-data-account-request" aria-expanded="false">Orders</button></li>
+    </ul>
+    <div id="form-gdpr-data-account-request" class="form-gdpr-request">
+        <form>
+            <label for="form-gdpr-data-account-request-email">Enter your email to confirm your identity</label>
+            <input type="email" name="email" id="form-gdpr-data-account-request-email" placeholder="example@email.com" autocomplete="email" autocorrect="off" autocapitalize="off" autofocus="">
+            <input type="submit" class="btn" id="form-gdpr-data-account-request-submit" value="Submit">
+            <input type="hidden" name="request_type" id="form-gdpr-data-account-request-request-type" value="">
+        </form>
+    </div>
+    <h2>Access to Personal Data</h2>
+    <p>You can use the link below to request a report which will contain all personal information that we store for you.</p>
+    <ul id="gdpr_personal_data_compliance_requests" class="gdpr-compliance-requests list-unstyled">
+      <li><button id="btn-gdpr-personal-data-report-request" aria-label="request a report" aria-controls="form-gdpr-personal-data-report-request" aria-expanded="false">Request a report</button></li>
+    </ul>
+    <div id="form-gdpr-personal-data-report-request" class="form-gdpr-request">
+        <form>
+            <label for="form-gdpr-personal-data-report-request-email">Enter your email to confirm your identity</label>
+            <input type="email" name="email" id="form-gdpr-personal-data-report-request-email" placeholder="example@email.com" autocomplete="email" autocorrect="off" autocapitalize="off" autofocus="">
+            <input type="submit" class="btn" id="form-gdpr-personal-data-report-request-submit" value="Submit">
+        </form>
+    </div>
+    <h2>Right to be Forgotten</h2>
+    <p>Use this option if you want to remove your personal and other data from our store. Keep in mind that <strong>this process will delete your account, so you will no longer be able to access or use it anymore</strong>.</p>
+    <ul id="gdpr_rtbf_compliance_requests" class="gdpr-compliance-requests list-unstyled">
+      <li><button id="btn-gdpr-delete-account-request" aria-label="request personal data deletion" aria-controls="form-gdpr-delete-account-request" aria-expanded="false">Request personal data deletion</button></li>
+    </ul>
+    <div id="form-gdpr-delete-account-request" class="form-gdpr-request">
+        <form>
+            <label for="form-gdpr-delete-account-request-email">Enter your email to confirm your identity</label>
+            <input type="email" name="email" id="form-gdpr-delete-account-request-email" placeholder="example@email.com" autocomplete="email" autocorrect="off" autocapitalize="off" autofocus="">
+            <input type="submit" class="btn" id="form-gdpr-delete-account-request-submit" value="Submit">
+        </form>
+    </div>
+</div><script>     /* SLIDE UP */
+     let slideUp = (target, duration=500) => {
+        target.style.transitionProperty = 'height, margin, padding';
+        target.style.transitionDuration = duration + 'ms';
+        target.style.boxSizing = 'border-box';
+        target.style.height = target.offsetHeight + 'px';
+        target.offsetHeight;
+        target.style.overflow = 'hidden';
+        target.style.height = 0;
+        target.style.paddingTop = 0;
+        target.style.paddingBottom = 0;
+        target.style.marginTop = 0;
+        target.style.marginBottom = 0;
+        window.setTimeout( () => {
+            target.style.display = 'none';
+            target.style.removeProperty('height');
+            target.style.removeProperty('padding-top');
+            target.style.removeProperty('padding-bottom');
+            target.style.removeProperty('margin-top');
+            target.style.removeProperty('margin-bottom');
+            target.style.removeProperty('overflow');
+            target.style.removeProperty('transition-duration');
+            target.style.removeProperty('transition-property');
+        }, duration);        // On closing the Data Portability section, set the request type value back to an empty string
+        if (target.getAttribute('id') === 'form-gdpr-data-account-request') {
+          document.querySelector('#form-gdpr-data-account-request-request-type').value = '';
+        }
+    }    /* SLIDE DOWN */
+    let slideDown = (target, duration=500) => {
+      setTimeout(function(){
+        target.style.removeProperty('display');
+        let display = window.getComputedStyle(target).display;
+        if (display === 'none') display = 'block';          target.style.display = display;
+          
+          let height = target.offsetHeight;
+          
+          target.style.overflow = 'hidden';
+          target.style.height = 0;
+          target.style.paddingTop = 0;
+          target.style.paddingBottom = 0;
+          target.style.marginTop = 0;
+          target.style.marginBottom = 0;
+          target.offsetHeight;
+          target.style.boxSizing = 'border-box';
+          target.style.transitionProperty = "height, margin, padding";
+          target.style.transitionDuration = duration + 'ms';
+          target.style.height = height + 'px';
+          
+          target.style.removeProperty('padding-top');
+          target.style.removeProperty('padding-bottom');
+          target.style.removeProperty('margin-top');
+          target.style.removeProperty('margin-bottom');
+          
+          window.setTimeout( () => {
+              target.style.removeProperty('height');
+              target.style.removeProperty('overflow');
+              target.style.removeProperty('transition-duration');
+              target.style.removeProperty('transition-property');
+          }, duration);
+       }, 100)
+    }    /* TOOGLE */
+    var slideToggle = (target, duration = 500) => {
+        if (window.getComputedStyle(target).display === 'none') {
+            return slideDown(target, duration);
+        } else {
+            return slideUp(target, duration);
+        }
+    }    /* FADE */
+    var toggleFadeiSense = (elem, show) => {
+        if (show) {
+            elem.style.display = "block";
+            setTimeout(function(){
+                elem.classList.add('show-isense');
+                elem.classList.remove('hide-isense');
+            },20)
+        } else {
+            elem.classList.remove('show-isense');
+            elem.classList.add('hide-isense');
+            setTimeout(() => {
+                elem.style.display = 'none';
+            }, 400)
+        }
+    }    var gdprSlideUpAll = function() {
+        slideUp(document.querySelector('#form-gdpr-edit-account-request'), 100);
+        slideUp(document.querySelector('#form-gdpr-data-account-request'), 100);
+        slideUp(document.querySelector('#form-gdpr-personal-data-report-request'), 100);
+        slideUp(document.querySelector('#form-gdpr-delete-account-request'), 100);
+        document.querySelector('#gdpr_page button').setAttribute("aria-expanded", "false");
+    };    var email, type, consentGiven = false;
+    var verificationModalContent = '<div id="data-verification-background"><div class="loading"></div><div id="data-verification-modal"><button class="data-verification-close" aria-label="Close">&times;</button><div id="data-verification-container"><input type="checkbox" aria-labelledby="gdpr-modal-container-text"><label id="data-verification-icon"><svg width="18px" height="18px" viewBox="0 0 18 18"><path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path></path><polyline points="1 9 7 14 15 4"></polyline></svg></label><p id="gdpr-modal-container-text">I give my consent on collecting my email and IP address for the purpose of processing this request. For more check <a href="https://gdprcdn.b-cdn.net/pages/privacy_policy"  target="_blank" aria-label="Privacy Policy &amp Terms of Service link (opens in a new tab)">Privacy Policy &amp Terms of Service</a>.</p></div></div></div>';    var gdprSendRequest = function(callback) {
+        
+        fetch('https://www.cloudflare.com/cdn-cgi/trace', {
+            method: 'GET' ,
+            headers: {
+                'Content-Type': 'text/plain',
+            },
+        })
+        .then(resp => resp.text())
+        .then(resp => {
+            if (!resp.error) {
+                let ipInfo = resp;                let formData = new FormData();                formData.append('shop', Shopify.shop);
+                formData.append('email', email);
+                formData.append('type', type);
+                formData.append('sourceOfRequest', 1);
+                formData.append('ipAddress', ipInfo);
+                formData.append('consentGiven', consentGiven);
+                formData.append('page', 'gdpr');
+                formData.append('lang', Shopify.locale ? Shopify.locale : '');
+                formData.append('gtranslateLang', isenseGDPR.Cookies.get('googtrans') ? isenseGDPR.Cookies.get('googtrans') : '');                fetch('https://gdpr.apps.isenselabs.com/gdprRequests/submitRequest', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(resp => resp.json())
+                .then(resp => {
+                    if (!resp.error) {
+                        gdprSlideUpAll();
+                        
+                        if (resp.message.length) {
+                          alert(resp.message);
+                        } else {
+                          alert('Your request has been submitted successfully. Please check your email for more information.');
+                        }
+                    } else {
+                        alert(resp.message);
+                    }
+                    if (typeof callback == 'function') {
+                        callback(resp);
+                    }
+                })
+                .catch(error => {
+                    alert(error.message);
+                })            } 
+            else {
+                alert(resp.message);
+            }                        
+        })
+    }    //Append modal to body, because otherwise it will not stay centered(even if position is fixed)
+    document.querySelector("body").insertAdjacentHTML( 'beforeend', verificationModalContent);
+    
+    document.addEventListener("DOMContentLoaded", function() {      // When the user clicks on <span> (x), close the modal
+      document.querySelector('.data-verification-close').addEventListener('click', function(e) {
+          e.preventDefault();
+          closeVerificationModal();
+      });      document.querySelector('#data-verification-icon, #data-verification-container p').addEventListener('click', function(e) {
+          e.preventDefault();          // Detect a href's click, because it is overwritten.
+          if(e.target.tagName === "A") {
+            window.open(e.target.href, '_blank');
+            return;
+          }          document.querySelector('#data-verification-icon').classList.add("clicked");
+          setTimeout(()=>{
+            toggleFadeiSense(document.querySelector("#data-verification-modal"), false);
+            document.querySelector('#data-verification-background .loading').style.display = 'inline-block';
+            consentGiven = true;
+            gdprSendRequest(function(resp) {
+                consentGiven = false;
+                closeVerificationModal();
+            });
+          }, 400);
+      });
+    });    function openVerificationModal(){      
+        toggleFadeiSense(document.querySelector("#data-verification-modal"), true);
+        toggleFadeiSense(document.querySelector('#data-verification-background'), true);
+        document.querySelector('#data-verification-container input').focus();
+    }    function closeVerificationModal(){
+        toggleFadeiSense(document.querySelector("#data-verification-background"), false);        document.querySelector('#data-verification-icon').classList.remove("clicked");
+        document.querySelector('#data-verification-background .loading').style.display = 'none';        // Focus the button of the request type that was picked
+        let gdprForms = document.querySelectorAll('.form-gdpr-request');
+        gdprForms.forEach(function(gdprForm) {
+          if (gdprForm.style.display !== "none") {
+            let gdprFormLinks = gdprForm.previousElementSibling.querySelectorAll('li');
+            if (gdprFormLinks.length === 1) {
+              gdprFormLinks[0].querySelector('button').focus();
+            } else if (gdprFormLinks.length > 1) {
+              gdprFormPickedLinkValue = document.querySelector('#form-gdpr-data-account-request-request-type').value;
+              switch (gdprFormPickedLinkValue) {
+                case 'customer/requests':
+                  gdprFormLinks[0].querySelector('button').focus();
+                  break;
+                case 'customer/personal_info':
+                  gdprFormLinks[1].querySelector('button').focus();
+                  break;
+                case 'customer/orders':
+                  gdprFormLinks[2].querySelector('button').focus();
+                  break;
+                default:
+                  break;
+              }
+            }
+          }
+        });
+    }    document.querySelector('#btn-gdpr-edit-account-request').addEventListener('click', function(e) {
+        e.preventDefault();
+        gdprSlideUpAll();
+        slideDown(document.querySelector('#form-gdpr-edit-account-request'), 200);
+        this.setAttribute("aria-expanded", "true");
+    });    document.querySelector('#form-gdpr-edit-account-request-submit').addEventListener('click', function(e) {
+        e.preventDefault();
+        email = document.querySelector('#form-gdpr-edit-account-request-email').value;
+        type = 'customer/edit';
+        openVerificationModal();
+    });    document.querySelectorAll('#btn-gdpr-requests-request, #btn-gdpr-personal-information-request, #btn-gdpr-orders-request').forEach(element => {        element.addEventListener('click', function(e) {
+            e.preventDefault();
+            gdprSlideUpAll();            type = '';
+            
+            switch(this.getAttribute('id')) {
+                case 'btn-gdpr-requests-request':
+                    type = 'customer/requests';
+                    break;
+                case 'btn-gdpr-personal-information-request':
+                    type = 'customer/personal_info';
+                    break;
+                case 'btn-gdpr-orders-request':
+                    type = 'customer/orders';
+                    break;
+            }            document.querySelector('#form-gdpr-data-account-request-request-type').value = type;            slideDown(document.querySelector('#form-gdpr-data-account-request'), 200);
+            this.setAttribute("aria-expanded", "true");
+        })
+    });    document.querySelector('#form-gdpr-data-account-request-submit').addEventListener('click', function(e) {
+        e.preventDefault();
+        email = document.querySelector('#form-gdpr-data-account-request-email').value;
+        type = document.querySelector('#form-gdpr-data-account-request-request-type').value;
+        openVerificationModal();
+    });    document.querySelector('#btn-gdpr-personal-data-report-request').addEventListener('click', function(e) {
+        e.preventDefault();
+        gdprSlideUpAll();
+        slideDown(document.querySelector('#form-gdpr-personal-data-report-request'), 200);
+        this.setAttribute("aria-expanded", "true");
+    });    document.querySelector('#form-gdpr-personal-data-report-request-submit').addEventListener('click', function(e) {
+        e.preventDefault();
+        email = document.querySelector('#form-gdpr-personal-data-report-request-email').value;
+        type = 'customer/report';
+        openVerificationModal();
+    });    document.querySelector('#btn-gdpr-delete-account-request').addEventListener('click', function(e) {
+        e.preventDefault();
+        gdprSlideUpAll();
+        slideDown(document.querySelector('#form-gdpr-delete-account-request'), 200);
+        this.setAttribute("aria-expanded", "true");
+    });    document.querySelector('#form-gdpr-delete-account-request-submit').addEventListener('click', function(e) {
+        e.preventDefault();
+        email = document.querySelector('#form-gdpr-delete-account-request-email').value;
+        type = 'customer/delete';
+        openVerificationModal();
+    });    // Keyboard navigation for the compliance page's requests
+    document.querySelector('#gdpr_page').addEventListener('keydown', function(e) {
+      let isTabPressed = e.keyCode === 9 || e.key === "Tab" || e.code === "Tab";
+      // This function saves us the trouble of calling e.preventDefault() after every focusing
+      let executeFocus = (focusElement) => {focusElement.focus();e.preventDefault();}      if (isTabPressed) {
+        let gdprFormPickedLinkValue = document.querySelector('#form-gdpr-data-account-request-request-type').value;
+        let gdprRequestsButton = document.querySelector('#btn-gdpr-requests-request');
+        let personalInformationButton = document.querySelector('#btn-gdpr-personal-information-request');
+        let ordersButton = document.querySelector('#btn-gdpr-orders-request');
+        let personalDataReportButton = document.querySelector('#btn-gdpr-personal-data-report-request');
+        let dataAccountFormEmailField = document.querySelector('#form-gdpr-data-account-request-email');
+        let dataAccountFormSubmitButton = document.querySelector('#form-gdpr-data-account-request-submit');        if (e.shiftKey) {
+          if ((document.activeElement === personalInformationButton && gdprFormPickedLinkValue === 'customer/requests') ||
+          (document.activeElement === ordersButton && gdprFormPickedLinkValue === 'customer/personal_info')) {
+            executeFocus(dataAccountFormSubmitButton);
+          } else if (document.activeElement === dataAccountFormEmailField) {
+            if (gdprFormPickedLinkValue === 'customer/requests') {
+              executeFocus(gdprRequestsButton);
+            } else if (gdprFormPickedLinkValue === 'customer/personal_info') {
+              executeFocus(personalInformationButton);
+            }
+          } else if (document.activeElement === personalDataReportButton) {
+            if (gdprFormPickedLinkValue !== 'customer/orders') {
+              executeFocus(ordersButton);
+            }
+          }
+        } else {
+          if ((document.activeElement === gdprRequestsButton && gdprFormPickedLinkValue === 'customer/requests') ||
+          (document.activeElement === personalInformationButton && gdprFormPickedLinkValue === 'customer/personal_info')) {
+            executeFocus(dataAccountFormEmailField);
+          } else if (document.activeElement === dataAccountFormSubmitButton) {
+            if (gdprFormPickedLinkValue === 'customer/requests') {
+              executeFocus(personalInformationButton);
+            } else if (gdprFormPickedLinkValue === 'customer/personal_info') {
+              executeFocus(ordersButton);
+            }
+          } else if (document.activeElement === ordersButton) {
+            if (gdprFormPickedLinkValue !== 'customer/orders') {
+              executeFocus(personalDataReportButton);
+            }
+          }
+        }
+      }
+    });    // Keyboard navigation in data verification modal for accesibility
+    document.querySelector('#data-verification-modal').addEventListener('keydown', function(e) {
+      let isTabPressed = e.keyCode === 9 || e.key === "Tab" || e.code === "Tab";
+      let isEscapePressed = e.keyCode === 27 || e.key === "Escape" || e.code === "Escape";
+      let isSpacePressed = event.keyCode === 32 || e.key === " " || event.code === "Space";
+      let isEnterPressed = event.keyCode === 13 || e.key === "Enter" || event.code === "Enter";
+      let dataVerificationCloseButton = document.querySelector('.data-verification-close');
+      let dataVerificationCheckbox = document.querySelector('#data-verification-container input');
+      let dataVerificationLink = document.querySelector('#data-verification-container a');
+      // This function saves us the trouble of calling e.preventDefault() after every focusing
+      let executeFocus = (focusElement) => {focusElement.focus();e.preventDefault();}      if (isEscapePressed) {
+        if (dataVerificationCloseButton) {
+          dataVerificationCloseButton.click();
+        }
+      }      if (isSpacePressed || isEnterPressed) {
+        if (document.activeElement === dataVerificationCheckbox) {
+          document.querySelector('#data-verification-container #data-verification-icon').click();
+        }
+      }
+      
+      if (isSpacePressed || isEnterPressed) {
+        let dataVerificationCheckbox = document.querySelector('#data-verification-container input');
+        if (document.activeElement === dataVerificationCheckbox) {
+          document.querySelector('#data-verification-container #data-verification-icon').click();
+        }
+      }      if (isTabPressed) {
+        if (e.shiftKey) {
+          if (dataVerificationCloseButton && document.activeElement === dataVerificationCloseButton) {
+            executeFocus(dataVerificationLink);
+          }
+        } else {
+          if (dataVerificationLink && document.activeElement === dataVerificationLink) {
+            executeFocus(dataVerificationCloseButton);
+          }
+        }
+      }
+  });
+</script></div></div>
+</div><div id="divContentBk"></div>
+<!--GEM_FOOTER-->
+{% capture GEM_FOOTER_SCRIPT %}
+<script data-instant-track type="text/javascript">
+	var pageLibs = [		'{{ 'gem-page-120755257675.js' | asset_url }}',	];
+</script>
+<script data-instant-track type="text/javascript">
+	var GEMVENDOR = GEMVENDOR || (function(){		var _js = {};		return {			init: function(Args) {				_js = Args;			},			getLibs: function() {				return _js;			}		};	}());	GEMVENDOR.init(pageLibs);</script>
+<script data-instant-track type="text/javascript" src="https://d1um8515vdn9kb.cloudfront.net/files/gempagev2.js?v=1.0" class="gf-script" defer></script>
+{% endcapture %}
+<!--GEM_FOOTER_END-->
