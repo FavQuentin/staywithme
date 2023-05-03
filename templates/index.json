@@ -16,9 +16,9 @@
             "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "right",
-            "image_overlay_opacity": 20,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "right"
+            "image_overlay_opacity": 10,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
