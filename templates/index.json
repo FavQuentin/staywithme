@@ -136,6 +136,59 @@
         "maxwidth": 1720
       }
     },
+    "f6c2c926-a90a-40ea-be27-cb31a8211e3c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16008344207591__f6c2c926-a90a-40ea-be27-cb31a8211e3c-1683128474a2f8894b-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PHOTO-2022-05-01-08-53-29_2_79f99367-0d32-494d-9088-b00cbe3d5a7a.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections\/collection-twenty-five",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16008344207591__f6c2c926-a90a-40ea-be27-cb31a8211e3c-1683128474a2f8894b-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344207591__f6c2c926-a90a-40ea-be27-cb31a8211e3c-1683128474a2f8894b-0",
+        "template--16008344207591__f6c2c926-a90a-40ea-be27-cb31a8211e3c-1683128474a2f8894b-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -379,6 +432,7 @@
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
+    "f6c2c926-a90a-40ea-be27-cb31a8211e3c",
     "featured_collection",
     "rich_text",
     "1663693184c928e662",
