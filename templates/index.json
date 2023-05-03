@@ -6,14 +6,14 @@
         "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/46_1529fb08-101f-4937-8d47-1788ab057cea.png",
+            "image": "shopify:\/\/shop_images\/IMG_5737.png",
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
             "button_label": "VOIR PLUS",
-            "link": "shopify:\/\/products\/pull-a-col-zippe",
+            "link": "shopify:\/\/collections\/linedit",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "right",
             "image_overlay_opacity": 20,
