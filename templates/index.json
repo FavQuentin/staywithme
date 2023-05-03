@@ -10,7 +10,7 @@
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
-            "button_label": "VOIR PLUS",
+            "button_label": "J'EN PROFITE !",
             "link": "shopify:\/\/collections\/linedit",
             "button_style_secondary": false,
             "box_align": "bottom-center",
@@ -20,29 +20,10 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "right"
           }
-        },
-        "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/45_afbae76d-188c-4e8b-9f0d-a55569595d6a.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "VOIR PLUS",
-            "link": "shopify:\/\/products\/pull-a-col-zippe-beige-swm",
-            "button_style_secondary": false,
-            "box_align": "top-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 20,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
-          }
         }
       },
       "block_order": [
-        "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-0",
-        "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-1"
+        "template--16008344207591__647cde64-b465-4f8f-bff2-1fd0427b0b9b-16794940688c2117bd-0"
       ],
       "settings": {
         "layout": "full_bleed",
