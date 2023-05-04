@@ -124,7 +124,7 @@
         "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -151,7 +151,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,
