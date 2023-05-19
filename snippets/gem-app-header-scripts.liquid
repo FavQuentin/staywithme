@@ -1,8 +1,30 @@
+{%- comment -%}
+This file has been modified by the Yoast SEO for Shopify app.
+You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+{%- liquid
+	assign disabled_by_yoast_seo = true
+	if content_for_header contains 'yoast-active-script'
+		assign disabled_by_yoast_seo = false
+	endif
+-%}
 {% capture gemHeaderScripts %}
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" class="gf-style">
 <link data-instant-track rel="stylesheet" type="text/css" href="https://d1um8515vdn9kb.cloudfront.net/files/vendor.css?refresh=1" class="gf-style" />{% endcapture %}{% assign gemHandleCheck = 'index.gem-1683125123-template, product.gem-1683125124-template, collection.gem-1683125125-template' | split: ", " %}{% for h in gemHandleCheck %}{% if template == h %}{{ gemHeaderScripts }}{% endif %}{% endfor %}    
 {% if request.page_type == 'page'  and page.metafields.gempages.featuredImage != blank %}
-      <meta property="og:image" content="{{ page.metafields.gempages.featuredImage }}" />
-      <meta property="og:image:secure_url" content="{{ page.metafields.gempages.featuredImage }}" />
-      <meta property="twitter:image" content="{{ page.metafields.gempages.featuredImage }}" />
+      {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+{%- if disabled_by_yoast_seo -%}
+<meta property="og:image" content="{{ page.metafields.gempages.featuredImage }}" />
+{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+{%- endif -%}
+      {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+{%- if disabled_by_yoast_seo -%}
+<meta property="og:image:secure_url" content="{{ page.metafields.gempages.featuredImage }}" />
+{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+{%- endif -%}
+      {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+{%- if disabled_by_yoast_seo -%}
+<meta property="twitter:image" content="{{ page.metafields.gempages.featuredImage }}" />
+{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+{%- endif -%}
     {% endif %}
