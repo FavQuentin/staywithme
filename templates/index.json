@@ -53,20 +53,13 @@
         "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "accessoires"
           }
         }
       },
       "block_order": [
         "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-0",
-        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-1",
-        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-2"
+        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-1"
       ],
       "settings": {
         "title": "",
