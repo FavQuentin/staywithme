@@ -41,8 +41,49 @@
         "maxwidth": 1080
       }
     },
+    "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vetements"
+          }
+        },
+        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-0",
+        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-1",
+        "template--16008344207591__3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8-16861540617e8d28bb-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "NOUVEAUTÉS",
         "heading_size": "h1",
@@ -291,6 +332,7 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
+    "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "6175a9f7-8ab6-472d-8b6f-006226e1629e",
