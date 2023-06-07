@@ -150,60 +150,6 @@
         "maxwidth": 1720
       }
     },
-    "3cebbfaf-8808-4e43-bab1-d4816a990a36": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "VÊTEMENTS",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "vetements",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "accent-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "c53e7f97-517d-4169-9841-5d86005d657e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "ACCESSOIRES",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "accessoires",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 16
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -249,7 +195,7 @@
           "settings": {
             "heading": "Qualité certifiée",
             "icon": "leather",
-            "row_content": "<p>Nos produits proviennent principalement d'Italie. Nos produits sont certifiés par les plus grands labels de textiles.<\/p>",
+            "row_content": "<p>Nos produits proviennent principalement d'Italie. Ils sont certifiés par les plus grands labels de textiles.<\/p>",
             "page": ""
           }
         },
@@ -329,8 +275,6 @@
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
-    "3cebbfaf-8808-4e43-bab1-d4816a990a36",
-    "c53e7f97-517d-4169-9841-5d86005d657e",
     "rich_text",
     "1663693049361d8985",
     "1654292859dfb30534",
