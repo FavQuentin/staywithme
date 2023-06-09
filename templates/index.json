@@ -38,7 +38,7 @@
     "6f4ce742-d8b3-469b-97fc-311e55546261": {
       "type": "judgeme_carousel_section",
       "settings": {
-        "maxwidth": 1080
+        "maxwidth": 1040
       }
     },
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8": {
@@ -70,7 +70,7 @@
         "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 0
       }
     },
