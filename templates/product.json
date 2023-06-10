@@ -61,7 +61,6 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Expédition",
             "icon": "truck",
@@ -71,17 +70,15 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Guides des tailles",
             "icon": "ruler",
-            "content": "<p>Mannequin : 1m80<\/p><p>Taille : S<\/p>",
+            "content": "<p>Taille unique<\/p>",
             "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Entretiens",
             "icon": "heart",
