@@ -51,11 +51,10 @@
         },
         "e2afabba-7b41-4edd-9a2e-9c2cec45fc96": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Matériaux",
             "icon": "leather",
-            "content": "<p><strong>100% coton<\/strong><\/p>",
+            "content": "<p><strong>100% UV protection<\/strong><\/p>",
             "page": ""
           }
         },
