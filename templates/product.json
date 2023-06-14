@@ -102,6 +102,7 @@
         },
         "199b3406-7153-4141-8bca-49c2eb061b26": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Inscrivez-vous et gagnez 50 points de fidélité",
             "page": "contact"
