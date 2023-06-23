@@ -6,19 +6,19 @@
         "62c17f1d-9ed0-4112-a9d4-049e9110f4e3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Beige_Abstract_New_Collection_Facebook_Post_e1e4903c-3199-48b2-86f2-723e53fd98d8.png",
+            "image": "shopify:\/\/shop_images\/Beige_Abstract_New_Collection_Facebook_Post-2.png",
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
             "button_label": "SUMMER 23",
             "link": "shopify:\/\/collections\/nouveautes",
             "button_style_secondary": false,
-            "box_align": "top-center",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 60,
             "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
+            "text_alignment_mobile": "center"
           }
         },
         "b90bad5a-1026-475b-9abb-65ac1766bae1": {
