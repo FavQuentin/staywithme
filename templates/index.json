@@ -98,46 +98,6 @@
         "maxwidth": 1040
       }
     },
-    "30f081cc-0320-4878-aa4c-93ba5dd0a46b": {
-      "type": "collage",
-      "blocks": {
-        "template--16008344207591__30f081cc-0320-4878-aa4c-93ba5dd0a46b-168807210313f239d9-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "template--16008344207591__30f081cc-0320-4878-aa4c-93ba5dd0a46b-168807210313f239d9-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "template--16008344207591__30f081cc-0320-4878-aa4c-93ba5dd0a46b-168807210313f239d9-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16008344207591__30f081cc-0320-4878-aa4c-93ba5dd0a46b-168807210313f239d9-0",
-        "template--16008344207591__30f081cc-0320-4878-aa4c-93ba5dd0a46b-168807210313f239d9-1",
-        "template--16008344207591__30f081cc-0320-4878-aa4c-93ba5dd0a46b-168807210313f239d9-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8": {
       "type": "collection-list",
       "blocks": {
@@ -383,7 +343,6 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
-    "30f081cc-0320-4878-aa4c-93ba5dd0a46b",
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
