@@ -322,6 +322,22 @@
         "feed_width": 100,
         "html_area": ""
       }
+    },
+    "1688027202960e1555": {
+      "type": "apps",
+      "blocks": {
+        "8430bb67-f31d-4ede-bae2-4c3d1f1fdef2": {
+          "type": "shopify:\/\/apps\/yoast-seo-seo-for-everyone\/blocks\/breadcrumbs\/7c777011-bc88-4743-a24e-64336e1e5b46",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "8430bb67-f31d-4ede-bae2-4c3d1f1fdef2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -335,6 +351,7 @@
     "rich_text",
     "1663693049361d8985",
     "1654292859dfb30534",
-    "1654293324b53bcde2"
+    "1654293324b53bcde2",
+    "1688027202960e1555"
   ]
 }
