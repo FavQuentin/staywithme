@@ -184,7 +184,7 @@
           "type": "button",
           "settings": {
             "button_label": "J'EN PROFITE !",
-            "button_link": "shopify:\/\/collections\/linedit",
+            "button_link": "shopify:\/\/collections\/soldes",
             "button_style_secondary": true
           }
         }
