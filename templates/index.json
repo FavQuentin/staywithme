@@ -98,6 +98,57 @@
         "maxwidth": 1040
       }
     },
+    "770c3f4a-fdcd-4813-9bfd-afc072c97804": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-0",
+        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-1",
+        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Orange_Modern_Abstract_Sales_Promotion_Poster-3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
       "type": "featured-collection",
       "settings": {
@@ -343,6 +394,7 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
+    "770c3f4a-fdcd-4813-9bfd-afc072c97804",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
