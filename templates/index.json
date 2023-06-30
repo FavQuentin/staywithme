@@ -138,7 +138,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Orange_Modern_Abstract_Sales_Promotion_Poster-3.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
