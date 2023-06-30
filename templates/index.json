@@ -98,6 +98,33 @@
         "maxwidth": 1040
       }
     },
+    "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "JUSQU'À -50%",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "soldes",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "accent-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8": {
       "type": "collection-list",
       "blocks": {
@@ -128,33 +155,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 32,
-        "padding_bottom": 0
-      }
-    },
-    "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "JUSQU'À -50%",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "soldes",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": true,
-        "color_scheme": "accent-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
         "padding_bottom": 0
       }
     },
@@ -343,8 +343,8 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
-    "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
+    "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
