@@ -13,7 +13,7 @@
             "button_label": "Ensemble Summer",
             "link": "shopify:\/\/collections\/ensembles",
             "button_style_secondary": false,
-            "box_align": "bottom-center",
+            "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 60,
