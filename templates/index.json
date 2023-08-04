@@ -5,6 +5,7 @@
       "blocks": {
         "62c17f1d-9ed0-4112-a9d4-049e9110f4e3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/91.png",
             "heading": "",
@@ -136,7 +137,6 @@
         "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Orange_Modern_Abstract_Sales_Promotion_Poster-3.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
