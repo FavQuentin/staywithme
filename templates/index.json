@@ -5,7 +5,6 @@
       "blocks": {
         "62c17f1d-9ed0-4112-a9d4-049e9110f4e3": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/91.png",
             "heading": "",
@@ -99,56 +98,6 @@
         "maxwidth": 1040
       }
     },
-    "770c3f4a-fdcd-4813-9bfd-afc072c97804": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-0",
-        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-1",
-        "template--16008344207591__770c3f4a-fdcd-4813-9bfd-afc072c97804-16881203896773959c-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
       "type": "featured-collection",
       "settings": {
@@ -213,43 +162,6 @@
       "type": "judgeme_carousel_section",
       "settings": {
         "maxwidth": 1080
-      }
-    },
-    "6175a9f7-8ab6-472d-8b6f-006226e1629e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SOLDES : jusqu'à -50%",
-            "heading_size": "h1"
-          }
-        },
-        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"\/collections\/soldes\" target=\"_blank\" title=\"SOLDES\"><em><strong>Profitez de nos soldes sur l'ensemble de nos v<\/strong><\/em><strong>êtements et accessoires<\/strong><\/a><\/p>"
-          }
-        },
-        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "J'EN PROFITE !",
-            "button_link": "shopify:\/\/collections\/soldes",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-0",
-        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-1",
-        "template--16008344207591__6175a9f7-8ab6-472d-8b6f-006226e1629e-167805172849f232d4-2"
-      ],
-      "settings": {
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "a25292e4-40a4-40fb-8586-0278a22fac9d": {
@@ -394,11 +306,9 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
-    "770c3f4a-fdcd-4813-9bfd-afc072c97804",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
-    "6175a9f7-8ab6-472d-8b6f-006226e1629e",
     "a25292e4-40a4-40fb-8586-0278a22fac9d",
     "rich_text",
     "1663693049361d8985",
