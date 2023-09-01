@@ -20,67 +20,10 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "b90bad5a-1026-475b-9abb-65ac1766bae1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/76_53b681e6-3952-4b72-9293-e656f83f9990.png",
-            "heading": "Lunette de soleil rose",
-            "heading_size": "h1",
-            "subheading": "100% UV protectrice",
-            "button_label": "VOIR PLUS",
-            "link": "shopify:\/\/products\/lunette-de-soleil-rose-swm",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "26f19d13-0e1e-4d8c-abf6-74bbd5d865d0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/80_7e5b546b-f6cd-4c99-91ba-37699c4f6818.png",
-            "heading": "Lunette de soleil bleu",
-            "heading_size": "h1",
-            "subheading": "Pour un été ensoleillé",
-            "button_label": "VOIR PLUS",
-            "link": "shopify:\/\/products\/lunette-de-soleil-bleu-swm",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "fd224496-521a-42c0-bd49-e4e3ec951e60": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/85_79d1f9db-81c5-46b4-8bac-0e8971563790.png",
-            "heading": "Lunette de soleil noir",
-            "heading_size": "h1",
-            "subheading": "L'accessoire idéal pour ta tenue",
-            "button_label": "VOIR PLUS",
-            "link": "shopify:\/\/products\/lunette-de-soleil-noir-swm",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "62c17f1d-9ed0-4112-a9d4-049e9110f4e3",
-        "b90bad5a-1026-475b-9abb-65ac1766bae1",
-        "26f19d13-0e1e-4d8c-abf6-74bbd5d865d0",
-        "fd224496-521a-42c0-bd49-e4e3ec951e60"
+        "62c17f1d-9ed0-4112-a9d4-049e9110f4e3"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -263,7 +206,7 @@
       "type": "apps",
       "blocks": {
         "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
@@ -288,16 +231,6 @@
     },
     "1688027202960e1555": {
       "type": "apps",
-      "blocks": {
-        "8430bb67-f31d-4ede-bae2-4c3d1f1fdef2": {
-          "type": "shopify:\/\/apps\/yoast-seo-seo-for-everyone\/blocks\/breadcrumbs\/7c777011-bc88-4743-a24e-64336e1e5b46",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "8430bb67-f31d-4ede-bae2-4c3d1f1fdef2"
-      ],
       "settings": {
         "include_margins": true
       }
