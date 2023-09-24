@@ -238,22 +238,9 @@
         "padding_bottom": 36
       }
     },
-    "1654293324b53bcde2": {
-      "type": "instafeed",
-      "settings": {
-        "heading_size": 30,
-        "feed_width": 100,
-        "html_area": ""
-      }
-    },
-    "1688027202960e1555": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "d95ffd4e-6682-4c27-83d6-b081a2a7affc": {
       "type": "yoast-seo-breadcrumbs",
+      "disabled": true,
       "settings": {
       }
     }
@@ -269,8 +256,6 @@
     "1663693049361d8985",
     "1654292859dfb30534",
     "7a7cf31a-bae8-47ba-b265-854e05a484dc",
-    "1654293324b53bcde2",
-    "1688027202960e1555",
     "d95ffd4e-6682-4c27-83d6-b081a2a7affc"
   ]
 }
