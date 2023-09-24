@@ -298,7 +298,7 @@
         "title": "",
         "heading_size": "h2",
         "image_width": "half",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
