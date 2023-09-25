@@ -226,7 +226,7 @@
       "settings": {
         "heading": "LE BLOG - SWM",
         "heading_size": "h2",
-        "blog": "certifications",
+        "blog": "le-blog-swm",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
