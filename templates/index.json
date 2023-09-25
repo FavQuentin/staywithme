@@ -104,13 +104,7 @@
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e": {
       "type": "judgeme_carousel_section",
       "settings": {
-        "maxwidth": 1080
-      }
-    },
-    "a25292e4-40a4-40fb-8586-0278a22fac9d": {
-      "type": "judgeme_carousel_section",
-      "settings": {
-        "maxwidth": 1720
+        "maxwidth": 1920
       }
     },
     "rich_text": {
@@ -318,7 +312,6 @@
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
-    "a25292e4-40a4-40fb-8586-0278a22fac9d",
     "rich_text",
     "1663693049361d8985",
     "1654292859dfb30534",
