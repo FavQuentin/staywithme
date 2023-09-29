@@ -245,7 +245,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/france.png",
-            "title": "Production 100% française",
+            "title": "Production 100% française 🇫🇷",
             "text": "<p>Maîtrise de l'ensemble de la chaîne de production.<\/p>",
             "link_label": "",
             "link": ""
@@ -255,7 +255,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/care.png",
-            "title": "Acteur responsable",
+            "title": "Acteur responsable ♻️",
             "text": "<p>Vêtements et accessoires biologiques, production éco-responsable.<\/p>",
             "link_label": "",
             "link": ""
@@ -265,7 +265,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/rating.png",
-            "title": "2500+",
+            "title": "2500+ 🌟",
             "text": "<p>De clients satisfaits.<\/p>",
             "link_label": "",
             "link": ""
@@ -275,7 +275,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/badge.png",
-            "title": "Qualité garantie",
+            "title": "Qualité garantie ✅",
             "text": "<p>Sélection des meilleurs produits.<\/p>",
             "link_label": "",
             "link": ""
