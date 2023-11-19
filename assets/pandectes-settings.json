@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700354690,
+  "tsPublished": 1700354739,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -318,7 +318,7 @@
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
-      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0642\/7181\/0791\/t\/4\/assets\/pandectes-logo.png?v=1700354276\" alt=\"Stay With Me \" \/>"
+      "logo": ""
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
@@ -326,7 +326,7 @@
     },
     "type": "opt-both",
     "layouts": {
-      "basic": "{{logo}}{{messagelink}}{{compliance}}{{close}}"
+      "basic": "{{messagelink}}{{compliance}}{{close}}"
     },
     "position": "top",
     "theme": "wired",
@@ -360,7 +360,7 @@
   },
   "banner": {
     "resetTs": 1700354539,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #000000;color:#FFFFFF;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 255, 255, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 1)}    .pd-cp-ui-close{color:#FFFFFF;}    .pd-cp-preferences-slider:before{background-color: #000000}    .pd-cp-title:before {border-color: #FFFFFF!important}    .pd-cp-preferences-slider{background-color:#FFFFFF}    .pd-cp-toggle{color:#FFFFFF!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFFFFF}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFFFFF!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{padding: 7px!important;z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #000000;color:#FFFFFF;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 255, 255, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 1)}    .pd-cp-ui-close{color:#FFFFFF;}    .pd-cp-preferences-slider:before{background-color: #000000}    .pd-cp-title:before {border-color: #FFFFFF!important}    .pd-cp-preferences-slider{background-color:#FFFFFF}    .pd-cp-toggle{color:#FFFFFF!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFFFFF}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFFFFF!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "hybridStrict": false,
