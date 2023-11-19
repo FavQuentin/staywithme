@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700354739,
+  "tsPublished": 1700354759,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -378,19 +378,443 @@
   },
   "cookies": {
     "0": [
-
+      {
+        "name": "keep_alive",
+        "domain": "www.staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Utilisé en relation avec la localisation de l'acheteur."
+        }
+      },
+      {
+        "name": "secure_customer_sig",
+        "domain": "www.staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Utilisé en relation avec la connexion client."
+        }
+      },
+      {
+        "name": "localization",
+        "domain": "www.staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Localisation de boutique Shopify"
+        }
+      },
+      {
+        "name": "cart_currency",
+        "domain": "www.staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "fr": "Le cookie est nécessaire pour la fonction de paiement et de paiement sécurisé sur le site Web. Cette fonction est fournie par shopify.com."
+        }
+      },
+      {
+        "name": "_pandectes_gdpr",
+        "domain": ".www.staywithme.fr",
+        "path": "\/",
+        "provider": "Pandectes",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Utilisé pour la fonctionnalité de la bannière de consentement aux cookies."
+        }
+      },
+      {
+        "name": "_cmp_a",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "1 day(s)",
+        "expires": 1,
+        "unit": "declSession",
+        "purpose": {
+          "fr": "Utilisé pour gérer les paramètres de confidentialité des clients."
+        }
+      },
+      {
+        "name": "_tracking_consent",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Préférences de suivi."
+        }
+      },
+      {
+        "name": "_secure_session_id",
+        "domain": "www.staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 day(s)",
+        "expires": 1,
+        "unit": "declSession",
+        "purpose": {
+          "fr": "Utilisé en relation avec la navigation dans une vitrine."
+        }
+      },
+      {
+        "name": "cookietest",
+        "domain": "www.staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": "Used to ensure our systems are working correctly."
+        }
+      }
     ],
     "1": [
-
+      {
+        "name": "cross-site-cookie",
+        "domain": "shopoe.net",
+        "path": "\/",
+        "provider": "Debutify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": -54,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Utilisé par le thème"
+        }
+      }
     ],
     "2": [
-
+      {
+        "name": "_orig_referrer",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "fr": "Suit les pages de destination."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "fr": "Suit les pages de destination."
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Analyses Shopify relatives au marketing et aux références."
+        }
+      },
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Analyses Shopify relatives au marketing et aux références."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Analyses Shopify."
+        }
+      },
+      {
+        "name": "_shopify_y",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Analyses Shopify."
+        }
+      },
+      {
+        "name": "_shopify_d",
+        "domain": "fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": "Analyses Shopify."
+        }
+      },
+      {
+        "name": "_shopify_d",
+        "domain": "staywithme.fr",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": "Analyses Shopify."
+        }
+      }
     ],
     "4": [
-
+      {
+        "name": "_fbp",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Facebook",
+        "firstParty": false,
+        "retention": "3 month(s)",
+        "expires": 3,
+        "unit": "declMonths",
+        "purpose": {
+          "fr": "Le cookie est placé par Facebook pour suivre les visites sur les sites Web."
+        }
+      }
     ],
     "8": [
-
+      {
+        "name": "_ttp",
+        "domain": ".tiktok.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "wpm-domain-test",
+        "domain": "fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "_ttp",
+        "domain": ".staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "shopifyChatData",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "lastExternalReferrerTime",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "lastExternalReferrer",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "wpm-domain-test",
+        "domain": "staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "wpm-domain-test",
+        "domain": "www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "local-storage-test",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "tt_pixel_session_index",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "tt_sessionId",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "tt_appInfo",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "_boomr_clss",
+        "domain": "https:\/\/www.staywithme.fr",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      }
     ]
   },
   "blocker": {
