@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700355380,
+  "tsPublished": 1700355509,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -26,7 +26,7 @@
         "fr": "Nous respectons votre vie privée"
       },
       "consentText": {
-        "fr": "Lors de votre navigation sur notre site, des données personnelles peuvent être collectées à partir de cookies.\nPendant leur durée de validité, et sous réserve de votre consentement préalable, ces cookies vous permettront d'améliorer votre expérience sur notre site.\n\nNous utilisons sur notre site des cookies destinés à assurer le bon fonctionnement du site, à personnaliser, selon vos préférences, son contenu et nos publicités sur des sites tiers, et à réaliser des analyses statistiques. Vous pouvez accepter le dépôt de cookies en cliquant sur \"Accepter & Fermer\", paramétrer vos choix en cliquant sur \"En savoir plus\" ou refuser les cookies en cliquant sur \"Continuer sans accepter\"."
+        "fr": "Lors de votre navigation sur notre site, des données personnelles peuvent être collectées à partir de cookies."
       },
       "dismissButtonText": {
         "fr": "D'accord"
@@ -320,7 +320,7 @@
       "target": "",
       "logo": ""
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-popup-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
     },
@@ -328,7 +328,7 @@
     "layouts": {
       "basic": "{{messagelink}}{{compliance}}{{close}}"
     },
-    "position": "top",
+    "position": "popup",
     "theme": "wired",
     "revokable": true,
     "animateRevokable": true,
@@ -360,14 +360,14 @@
   },
   "banner": {
     "resetTs": 1700354539,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{padding: 7px!important;z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #000000;color:#FFFFFF;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 255, 255, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 1)}    .pd-cp-ui-close{color:#FFFFFF;}    .pd-cp-preferences-slider:before{background-color: #000000}    .pd-cp-title:before {border-color: #FFFFFF!important}    .pd-cp-preferences-slider{background-color:#FFFFFF}    .pd-cp-toggle{color:#FFFFFF!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFFFFF}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFFFFF!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{padding: 7px!important;z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #000000;color:#FFFFFF;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 255, 255, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 1)}    .pd-cp-ui-close{color:#FFFFFF;}    .pd-cp-preferences-slider:before{background-color: #000000}    .pd-cp-title:before {border-color: #FFFFFF!important}    .pd-cp-preferences-slider{background-color:#FFFFFF}    .pd-cp-toggle{color:#FFFFFF!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFFFFF}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFFFFF!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
     "isActive": true,
     "implicitSavePreferences": false,
-    "cookieIcon": true,
+    "cookieIcon": false,
     "blockBots": false,
     "showCookiesDetails": true,
     "hasTransition": true,
