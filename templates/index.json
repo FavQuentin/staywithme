@@ -6,11 +6,11 @@
         "62c17f1d-9ed0-4112-a9d4-049e9110f4e3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/91.png",
+            "image": "shopify:\/\/shop_images\/sim_vip_416029a4-61bb-4ab5-af6b-82f45a7a3a93.png",
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
-            "button_label": "EXCLUSIVITÉ",
+            "button_label": "-50% SUR TOUTE",
             "link": "shopify:\/\/products\/t-shirt-oversize-swm",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -202,8 +202,6 @@
         "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }
