@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700356576,
+  "tsPublished": 1700356766,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -303,14 +303,14 @@
           "g": 0,
           "r": 0
         },
-        "text": "#FFFFFF",
+        "text": "#FDE559",
         "textForCalculation": {
           "a": 1,
-          "b": 255,
-          "g": 255,
-          "r": 255
+          "b": 89,
+          "g": 229,
+          "r": 253
         },
-        "border": "#FFFFFF"
+        "border": "#FDE559"
       }
     },
     "content": {
