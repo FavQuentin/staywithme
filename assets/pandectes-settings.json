@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700356450,
+  "tsPublished": 1700356465,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -32,7 +32,7 @@
         "fr": "D'accord"
       },
       "linkText": {
-        "fr": "Apprendre encore plus"
+        "fr": "En savoir plus"
       },
       "imprintText": {
         "fr": "Imprimer"
