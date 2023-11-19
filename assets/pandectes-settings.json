@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700356418,
+  "tsPublished": 1700356450,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -41,10 +41,10 @@
         "fr": "Préférences"
       },
       "allowButtonText": {
-        "fr": "J'accepte"
+        "fr": "Accepter & Fermer"
       },
       "denyButtonText": {
-        "fr": "Déclin"
+        "fr": "Continuer sans accepter"
       },
       "leaveSiteButtonText": {
         "fr": "Quitter ce site"
