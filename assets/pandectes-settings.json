@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700354772,
+  "tsPublished": 1700355380,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -26,7 +26,7 @@
         "fr": "Nous respectons votre vie privée"
       },
       "consentText": {
-        "fr": "Ce site utilise des cookies pour vous garantir la meilleure expérience."
+        "fr": "Lors de votre navigation sur notre site, des données personnelles peuvent être collectées à partir de cookies.\nPendant leur durée de validité, et sous réserve de votre consentement préalable, ces cookies vous permettront d'améliorer votre expérience sur notre site.\n\nNous utilisons sur notre site des cookies destinés à assurer le bon fonctionnement du site, à personnaliser, selon vos préférences, son contenu et nos publicités sur des sites tiers, et à réaliser des analyses statistiques. Vous pouvez accepter le dépôt de cookies en cliquant sur \"Accepter & Fermer\", paramétrer vos choix en cliquant sur \"En savoir plus\" ou refuser les cookies en cliquant sur \"Continuer sans accepter\"."
       },
       "dismissButtonText": {
         "fr": "D'accord"
@@ -41,10 +41,10 @@
         "fr": "Préférences"
       },
       "allowButtonText": {
-        "fr": "J'accepte"
+        "fr": "Accepter & Fermer"
       },
       "denyButtonText": {
-        "fr": "Déclin"
+        "fr": "Continuer sans accepter"
       },
       "leaveSiteButtonText": {
         "fr": "Quitter ce site"
@@ -367,7 +367,7 @@
     "cookiesBlockedByDefault": "7",
     "isActive": true,
     "implicitSavePreferences": false,
-    "cookieIcon": false,
+    "cookieIcon": true,
     "blockBots": false,
     "showCookiesDetails": true,
     "hasTransition": true,
