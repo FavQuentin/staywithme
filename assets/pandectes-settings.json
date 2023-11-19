@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700355630,
+  "tsPublished": 1700355671,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -320,7 +320,7 @@
       "target": "",
       "logo": ""
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-overlay-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
     },
@@ -328,7 +328,7 @@
     "layouts": {
       "basic": "{{messagelink}}{{compliance}}{{close}}"
     },
-    "position": "bottom",
+    "position": "overlay",
     "theme": "wired",
     "revokable": true,
     "animateRevokable": true,
@@ -360,7 +360,7 @@
   },
   "banner": {
     "resetTs": 1700354539,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{padding: 7px!important;z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #000000;color:#FFFFFF;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 255, 255, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 1)}    .pd-cp-ui-close{color:#FFFFFF;}    .pd-cp-preferences-slider:before{background-color: #000000}    .pd-cp-title:before {border-color: #FFFFFF!important}    .pd-cp-preferences-slider{background-color:#FFFFFF}    .pd-cp-toggle{color:#FFFFFF!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFFFFF}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFFFFF!important}    .pd-cookie-banner-window {}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{padding: 7px!important;z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #000000;color:#FFFFFF;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 255, 255, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 1)}    .pd-cp-ui-close{color:#FFFFFF;}    .pd-cp-preferences-slider:before{background-color: #000000}    .pd-cp-title:before {border-color: #FFFFFF!important}    .pd-cp-preferences-slider{background-color:#FFFFFF}    .pd-cp-toggle{color:#FFFFFF!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFFFFF}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFFFFF!important}    .pd-cookie-banner-window {}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "hybridStrict": false,
