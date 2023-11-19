@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sim_vip_416029a4-61bb-4ab5-af6b-82f45a7a3a93.png",
             "heading": "",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "subheading": "",
             "button_label": "OFFRE SPÉCIALE !",
             "link": "shopify:\/\/collections\/all",
@@ -64,8 +64,14 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "40303a81-f1ee-4732-9664-02d85b50055c": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
       }
     },
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8": {
@@ -308,6 +314,7 @@
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
+    "40303a81-f1ee-4732-9664-02d85b50055c",
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
     "1bc3d55a-8b1c-416e-a190-90af9bbeb32e",
     "rich_text",
