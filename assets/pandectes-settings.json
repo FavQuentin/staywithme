@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700355532,
+  "tsPublished": 1700355559,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -26,7 +26,7 @@
         "fr": "Nous respectons votre vie privée"
       },
       "consentText": {
-        "fr": "Lors de votre navigation sur notre site, des données personnelles peuvent être collectées à partir de cookies.jaygzjhsghdjezhs\n\n\n\n\nkjszdhehashdiuehzdehzajsndhezs\n\n\n\n\nzadejzjakldezsa"
+        "fr": "Lors de votre navigation sur notre site, des données personnelles peuvent être collectées à partir de cookies."
       },
       "dismissButtonText": {
         "fr": "D'accord"
