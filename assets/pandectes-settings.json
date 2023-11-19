@@ -5,7 +5,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1700354607,
+  "tsPublished": 1700354660,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -333,7 +333,7 @@
     "revokable": true,
     "animateRevokable": true,
     "revokableReset": false,
-    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0642\/7181\/0791\/t\/4\/assets\/pandectes-reopen-logo.png?v=1700354277",
+    "revokableLogoUrl": "",
     "revokablePlacement": "bottom-left",
     "revokableMarginHorizontal": 15,
     "revokableMarginVertical": 15,
