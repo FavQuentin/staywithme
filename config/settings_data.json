@@ -115,9 +115,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "OFFRE EXCLUSIVE SPÉCIALE BLACK FRIDAY JUSQU'À -50%",
+              "text": "Bienvenue sur notre boutique en ligne",
               "color_scheme": "background-1",
-              "link": "shopify:\/\/collections\/linedit"
+              "link": "shopify:\/\/collections"
             }
           }
         },
