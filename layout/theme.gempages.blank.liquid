@@ -233,95 +233,9 @@ You can learn more about this (and learn how to cleanly revert these changes) at
 {% render 'gp-head' %}
 </head>
 
-  <body class="gradient">
-    {%- render 'popup' -%}
-    
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
-      {{ "accessibility.skip_to_text" | t }}
-    </a>
-
-    {% section 'announcement-bar' %}
-    {% section 'header' %}
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+  <body class="gradient"><main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
-    </main>
-
-    {% section 'footer' %}
-
-    <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=staywithme-officiel.myshopify.com" defer></script>
-
-    
-
-    
-
-    <ul hidden>
-      <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
-    </ul>
-
-    <script>
-      window.shopUrl = '{{ request.origin }}';
-      window.routes = {
-        cart_add_url: '{{ routes.cart_add_url }}',
-        cart_change_url: '{{ routes.cart_change_url }}',
-        cart_update_url: '{{ routes.cart_update_url }}',
-        predictive_search_url: '{{ routes.predictive_search_url }}'
-      };
-
-      window.cartStrings = {
-        error: `{{ 'sections.cart.cart_error' | t }}`,
-        quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t: quantity: '[quantity]' }}`
-      }
-
-      window.variantStrings = {
-        addToCart: `{{ 'products.product.add_to_cart' | t }}`,
-        soldOut: `{{ 'products.product.sold_out' | t }}`,
-        unavailable: `{{ 'products.product.unavailable' | t }}`,
-      }
-
-      window.accessibilityStrings = {
-        imageAvailable: `{{ 'products.product.media.image_available' | t: index: '[index]' }}`,
-        shareSuccess: `{{ 'general.share.success_message' | t }}`,
-        pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
-        playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
-      }
-    </script>
-
-    {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
-  
-<!-- **BEGIN** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
-    {% render 'hextom_fsb_main', product: product, customer: customer %}
-    <!-- **END** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
- {% include 'smile-initializer' %}
-
-<!--Gem_Page_Footer_Script-->
-{% render 'gem-app-footer-scripts', GEM_FOOTER_SCRIPT: GEM_FOOTER_SCRIPT %}
-<!--End_Gem_Page_Footer_Script-->
-
-<!-- PF EDT START -->
-<script type='text/javascript'>
-{%- if content_for_header contains 'shopify-product-customizer' -%}
-    {%- if product -%}
-        {%- if product.first_available_variant -%}
-            var pfProductId = {{ product.metafields.printful.is_synced | json }};
-            var pfEdt = {{ shop.metafields.printful.is_edt_enabled | json }};
-            var pfEdtTextColor = {{ shop.metafields.printful.edt_text_color | json }};
-            var pfEdtBackgroundColor = {{ shop.metafields.printful.edt_background_color | json }};
-            var pfEdtBorderColor = {{ shop.metafields.printful.edt_border_color | json }};  
-            var pfEdtUseDefaultStyling = {{ shop.metafields.printful.edt_default_style | json }};
-            var pfEdtTextAlignment = {{ shop.metafields.printful.edt_text_alignment | json }};
-            var pfEdtFlags = {
-                US: "{{ 'US.svg' | asset_url }}",CA: "{{ 'CA.svg' | asset_url }}",ES: "{{ 'ES.svg' | asset_url }}",LV: "{{ 'LV.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",DE: "{{ 'DE.svg' | asset_url }}",FR: "{{ 'FR.svg' | asset_url }}",AU: "{{ 'AU.svg' | asset_url }}",JP: "{{ 'JP.svg' | asset_url }}",NZ: "{{ 'NZ.svg' | asset_url }}",IT: "{{ 'IT.svg' | asset_url }}",BR: "{{ 'BR.svg' | asset_url }}",KR: "{{ 'KR.svg' | asset_url }}",NL: "{{ 'NL.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",US: "{{ 'US.svg' | asset_url }}",
-            };
-        {%- else -%}
-            var pfEdt = 0;
-        {%- endif -%}
-    {%- endif -%}
-{%- endif -%}
-</script>
-<!-- PF EDT END -->
-</body>
+    </main></body>
 </html>
 
 {% include 'etranslate-language-switch-control' %}
