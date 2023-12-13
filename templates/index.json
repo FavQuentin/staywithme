@@ -282,7 +282,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/badge.png",
-            "title": "Qualité garantie ✅",
+            "title": "Qualité garantie",
             "text": "<p>Sélection des meilleurs produits.<\/p>",
             "link_label": "",
             "link": ""
