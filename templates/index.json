@@ -56,7 +56,7 @@
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": true,
-        "color_scheme": "accent-1",
+        "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": true,
@@ -208,6 +208,8 @@
         "ad8ccb77-26d0-44ad-ab2f-2a0d958fffed": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
