@@ -150,18 +150,10 @@
               "heading": "À PROPOS",
               "menu": "footer"
             }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "",
-              "subtext": "<p><strong>🇫🇷 Marque française <\/strong><\/p><p><strong>🌍 Livraison partout en France<\/strong><\/p><p><strong>🛍 Click&Collect disponible<\/strong><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-2"
+          "footer-0"
         ],
         "settings": {
           "color_scheme": "inverse",
