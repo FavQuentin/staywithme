@@ -134,6 +134,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true,
@@ -193,7 +194,7 @@
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "container_color_scheme": "inverse",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
@@ -251,7 +252,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/france.png",
-            "title": "Production 100% française 🇫🇷",
+            "title": "Production 100% française",
             "text": "<p>Maîtrise de l'ensemble de la chaîne de production.<\/p>",
             "link_label": "",
             "link": ""
