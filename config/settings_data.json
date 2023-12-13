@@ -116,8 +116,8 @@
             "type": "announcement",
             "settings": {
               "text": "Bienvenue sur notre boutique en ligne",
-              "color_scheme": "background-1",
-              "link": "shopify:\/\/collections"
+              "color_scheme": "inverse",
+              "link": ""
             }
           }
         },
