@@ -262,7 +262,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/care.png",
-            "title": "Acteur responsable ♻️",
+            "title": "Acteur responsable",
             "text": "<p>Vêtements et accessoires biologiques, production éco-responsable.<\/p>",
             "link_label": "",
             "link": ""
@@ -272,7 +272,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/rating.png",
-            "title": "1500+ 🌟",
+            "title": "1500+",
             "text": "<p>De clients satisfaits.<\/p>",
             "link_label": "",
             "link": ""
