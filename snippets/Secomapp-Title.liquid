@@ -1,13 +1,3 @@
-{%- comment -%}
-This file has been modified by the Yoast SEO for Shopify app.
-You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
-{%- endcomment -%}
-{%- liquid
-	assign disabled_by_yoast_seo = true
-	if content_for_header contains 'yoast-active-script'
-		assign disabled_by_yoast_seo = false
-	endif
--%}
 {% capture sb_include_manual_seo_log_ids_custom %}{% render "Secomapp-manual-seo-log-ids-custom" %}{% endcapture %}{% unless sb_include_manual_seo_log_ids_custom contains "Liquid error" %}{% capture "sb_res_check_custom_ids" %}{% render "Secomapp-manual-seo-log-ids-custom" %}{% endcapture %}{% endunless %}
 {% assign sb_res_check_custom_ids = sb_res_check_custom_ids | strip_html | strip | strip_newlines | lstrip  %}
 {% if sb_res_check_custom_ids == 1 %} {% assign sb_res_check_custom_ids = true  %} {% else %} {% assign sb_res_check_custom_ids = false  %} {% endif %}
