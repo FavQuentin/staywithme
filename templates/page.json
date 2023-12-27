@@ -25,10 +25,105 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "7344d179-fd1f-45c4-be3d-d19585c501bb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16008344633575__7344d179-fd1f-45c4-be3d-d19585c501bb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SWM+",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008344633575__7344d179-fd1f-45c4-be3d-d19585c501bb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Accès exclusif et premium de toutes les collections en avant-première ainsi que des cadeaux...<\/p>"
+          }
+        },
+        "template--16008344633575__7344d179-fd1f-45c4-be3d-d19585c501bb-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "60€",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344633575__7344d179-fd1f-45c4-be3d-d19585c501bb-heading-1",
+        "template--16008344633575__7344d179-fd1f-45c4-be3d-d19585c501bb-text-1",
+        "template--16008344633575__7344d179-fd1f-45c4-be3d-d19585c501bb-button-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4f9d1d62-9d5c-43fe-b486-39844e160c16": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16008344633575__4f9d1d62-9d5c-43fe-b486-39844e160c16-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badge.png",
+            "title": "",
+            "text": "<p><strong>-20% sur l'ensemble de nos vêtements<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16008344633575__4f9d1d62-9d5c-43fe-b486-39844e160c16-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rating.png",
+            "title": "",
+            "text": "<p>Livraison gratuite sur toute la France<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16008344633575__4f9d1d62-9d5c-43fe-b486-39844e160c16-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/france.png",
+            "title": "",
+            "text": "<p>Offres exclusives & ventes privées<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16008344633575__4f9d1d62-9d5c-43fe-b486-39844e160c16-column-1",
+        "template--16008344633575__4f9d1d62-9d5c-43fe-b486-39844e160c16-column-2",
+        "template--16008344633575__4f9d1d62-9d5c-43fe-b486-39844e160c16-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "SOUSCRIRE A SWM+",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "ae4c2d5d-d30e-490e-ac7c-3797d15dbe6b"
+    "ae4c2d5d-d30e-490e-ac7c-3797d15dbe6b",
+    "7344d179-fd1f-45c4-be3d-d19585c501bb",
+    "4f9d1d62-9d5c-43fe-b486-39844e160c16"
   ]
 }
