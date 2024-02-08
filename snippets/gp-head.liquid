@@ -49,39 +49,19 @@
         endif
       %}
       {% if GEMPAGES and GEMPAGES['title'] %}
-        {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta property="og:title" content="{{ GEMPAGES['title'] }}" />
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+        <meta property="og:title" content="{{ GEMPAGES['title'] }}" />
       {% endif %}
       {% if GEMPAGES and GEMPAGES['description'] %}
-        {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta property="og:description" content="{{ GEMPAGES['description'] }}" />
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+        <meta property="og:description" content="{{ GEMPAGES['description'] }}" />
       {% endif %}
       {% if GEMPAGES and GEMPAGES['thumbnail'] %}
-        {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta property="og:image" content="{{ GEMPAGES['thumbnail'] }}" />
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+        <meta property="og:image" content="{{ GEMPAGES['thumbnail'] }}" />
         <meta property="og:image:alt" content="{{ page_title }}" />
         {% if GEMPAGES and GEMPAGES['thumbnail_width'] %}
-          {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta property="og:image:width" content="{{ GEMPAGES['thumbnail_width'] }}" />
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+          <meta property="og:image:width" content="{{ GEMPAGES['thumbnail_width'] }}" />
         {% endif %}
         {% if GEMPAGES and GEMPAGES['thumbnail_height'] %}
-          {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta property="og:image:width" content="{{ GEMPAGES['thumbnail_height'] }}" />
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+          <meta property="og:image:width" content="{{ GEMPAGES['thumbnail_height'] }}" />
         {% endif %}
       {% endif %}
     {% endif %}

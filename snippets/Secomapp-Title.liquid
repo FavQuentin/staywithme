@@ -6,11 +6,7 @@
 {%- elsif template contains "index" -%}
 
 {% capture secomapp_index %}Stay With Me | Boutique de vêtement et accessoire en ligne{% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <title>{{ secomapp_index | strip_html | strip | strip_newlines | replace: '"', "'" }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 {%- elsif template contains "product" -%}
 
@@ -23,89 +19,13 @@
 {% endcapture %}
 {% case secomapp_product %}
   {% when ' ' %}
-   {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ page_title }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+   <title>{{ page_title }}</title>
   {% when '' %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ page_title }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <title>{{ page_title }}</title>
   {% when false %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ page_title }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <title>{{ page_title }}</title>
   {% else %}
-  {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ secomapp_product | strip_html | strip | strip_newlines | replace: '"', "'"}}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+  <title>{{ secomapp_product | strip_html | strip | strip_newlines | replace: '"', "'"}}</title>
 {% endcase %}
 
 {%- elsif template contains "collection" -%}
@@ -117,99 +37,19 @@
                                          {%- endif -%}{% endcapture %}
 {% case secomapp_collection %}
   {% when ' ' %}
-   {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ page_title }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+   <title>{{ page_title }}</title>
   {% when '' %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ page_title }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <title>{{ page_title }}</title>
   {% when false %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ page_title }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <title>{{ page_title }}</title>
   {% else %}
-   {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<title>{{ secomapp_collection | strip_html | strip | strip_newlines | replace: '"', "'"}}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+   <title>{{ secomapp_collection | strip_html | strip | strip_newlines | replace: '"', "'"}}</title>
 {% endcase %}
 
 {%- elsif template contains "blog" -%}
 
 {% capture secomapp_blog %}{{ page_title | strip}} {% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <title>{{ secomapp_blog | strip_html | strip | strip_newlines | replace: '"', "'" }}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 {%- elsif template contains "article" -%}
 
@@ -221,18 +61,10 @@
           {%comment%}bulk_edit_seo_article_title{%endcomment%} {{ page_title | strip }} {%comment%}end:bulk_edit_seo_article_title{%endcomment%}
     {%- endif -%}
  {% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <title>{{ secomapp_article | strip_html | strip | strip_newlines | replace: '"', "'"}}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 {% else %}
 {% capture secomapp_other %}{{ page_title }}{% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <title>{{ secomapp_other | strip_html | strip | strip_newlines | replace: '"', "'"}}</title>
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 {%- endif -%}

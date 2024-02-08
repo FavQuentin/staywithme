@@ -4,11 +4,7 @@
 {%- if template contains "404" -%}
 {%- elsif template contains "index" -%}
 {% capture secomapp_index_s %}Stay With Me | Marque de vêtement et accessoire en ligne | Production biologique et éco-responsable | Production française | Click and Collect disponible | Stay With Me est une marque originale.{% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <meta name="description" content="{{secomapp_index_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 {%- elsif template contains "product" -%}
 
@@ -22,89 +18,13 @@
 
 {% case secomapp_product_s %}
   {% when ' ' %}
-   {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{page_description}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+   <meta name="description" content="{{page_description}}">
   {% when '' %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{page_description}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <meta name="description" content="{{page_description}}">
   {% when false %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{page_description}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <meta name="description" content="{{page_description}}">
   {% else %}
-   {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{secomapp_product_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+   <meta name="description" content="{{secomapp_product_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
 {% endcase %}
 
 {%- elsif template contains "collection" -%}
@@ -118,99 +38,19 @@
  {% endcapture %}
 {% case secomapp_collection_s %}
   {% when ' ' %}
-   {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{page_description}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+   <meta name="description" content="{{page_description}}">
   {% when '' %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{page_description}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <meta name="description" content="{{page_description}}">
   {% when false %}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{page_description}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+    <meta name="description" content="{{page_description}}">
   {% else %}
-  {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
-<meta name="description" content="{{secomapp_collection_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
+  <meta name="description" content="{{secomapp_collection_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
 {% endcase %}
 
 {%- elsif template contains "blog" -%}
 
 {% capture secomapp_blog_s %}{{ page_description | strip}} {% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <meta name="description" content="{{ secomapp_blog_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 {%- elsif template contains "article" -%}
 
@@ -222,19 +62,11 @@
                     {%- endif -%}
 
 {% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <meta name="description" content="{{ secomapp_article_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 
 {% else %}
 {% capture secomapp_other_s %}{{ page_description | strip_html | strip}} {% endcapture %}
-{%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
 <meta name="description" content="{{ secomapp_other_s | strip_html | strip | strip_newlines | replace: '"', "'"}}">
-{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
-{%- endif -%}
 
 {%- endif -%}
