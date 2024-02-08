@@ -11,7 +11,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify:\/\/collections\/nouveautes",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -241,12 +241,6 @@
         "padding_bottom": 36
       }
     },
-    "d95ffd4e-6682-4c27-83d6-b081a2a7affc": {
-      "type": "yoast-seo-breadcrumbs",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "7e4fe51d-8240-477f-a8e6-afda0b3ce26b": {
       "type": "multicolumn",
       "blocks": {
@@ -326,7 +320,6 @@
     "1663693049361d8985",
     "1654292859dfb30534",
     "7a7cf31a-bae8-47ba-b265-854e05a484dc",
-    "d95ffd4e-6682-4c27-83d6-b081a2a7affc",
     "7e4fe51d-8240-477f-a8e6-afda0b3ce26b"
   ]
 }
