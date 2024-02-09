@@ -115,9 +115,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Joyeuse Saint-Valentin ! 💝",
+              "text": "💝 Joyeuse Saint-Valentin ! 💝",
               "color_scheme": "inverse",
-              "link": ""
+              "link": "shopify:\/\/products\/t-shirt-valentines"
             }
           }
         },
