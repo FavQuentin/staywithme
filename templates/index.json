@@ -5,6 +5,7 @@
       "blocks": {
         "62c17f1d-9ed0-4112-a9d4-049e9110f4e3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Post_Instagram_Soldes_Saint-Valentin_Rose_1920_x_1080_px.png",
             "heading": "",
