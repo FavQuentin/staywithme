@@ -41,50 +41,6 @@
         "maxwidth": 1040
       }
     },
-    "image_with_text_bbPWTz": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_ndjgXH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Édition limitée",
-            "heading_size": "h1"
-          }
-        },
-        "text_3Xh8UA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Déouvrez notre édition limitée Valentine's, une collection pensée pour partager et vivre l'amour dans toute sa splendeur. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_iF8c8N": {
-          "type": "button",
-          "settings": {
-            "button_label": "Découvrir",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_ndjgXH",
-        "text_3Xh8UA",
-        "button_iF8c8N"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/0-3.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2": {
       "type": "featured-collection",
       "settings": {
@@ -356,7 +312,6 @@
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
-    "image_with_text_bbPWTz",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "40303a81-f1ee-4732-9664-02d85b50055c",
     "3fbdf6ac-07b5-4af6-987b-bca5d6a41ae8",
