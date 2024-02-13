@@ -41,6 +41,50 @@
         "maxwidth": 1040
       }
     },
+    "image_with_text_EmedpV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Yq7WyA": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_N3fKy3": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "button_KDcEDi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir",
+            "button_link": "shopify:\/\/collections\/nouveautes"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yq7WyA",
+        "text_N3fKy3",
+        "button_KDcEDi"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_bf6bze": {
       "type": "featured-collection",
       "settings": {
@@ -334,55 +378,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_EmedpV": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_Yq7WyA": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_N3fKy3": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "button_KDcEDi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Découvrir",
-            "button_link": "shopify:\/\/collections\/nouveautes"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Yq7WyA",
-        "text_N3fKy3",
-        "button_KDcEDi"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/3.jpg",
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
+    "image_with_text_EmedpV",
     "featured_collection_bf6bze",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "40303a81-f1ee-4732-9664-02d85b50055c",
@@ -392,7 +393,6 @@
     "1663693049361d8985",
     "1654292859dfb30534",
     "7a7cf31a-bae8-47ba-b265-854e05a484dc",
-    "7e4fe51d-8240-477f-a8e6-afda0b3ce26b",
-    "image_with_text_EmedpV"
+    "7e4fe51d-8240-477f-a8e6-afda0b3ce26b"
   ]
 }
