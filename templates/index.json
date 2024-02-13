@@ -355,8 +355,8 @@
         "button_KDcEDi": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Découvrir",
+            "button_link": "shopify:\/\/collections\/nouveautes"
           }
         }
       },
