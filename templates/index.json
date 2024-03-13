@@ -49,9 +49,9 @@
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 3,
+        "change_slides_speed": 5,
         "show_text_below": false,
-        "accessibility_info": "NOUVELLE COLLECTION"
+        "accessibility_info": ""
       }
     },
     "6f4ce742-d8b3-469b-97fc-311e55546261": {
