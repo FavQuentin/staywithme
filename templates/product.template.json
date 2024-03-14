@@ -141,6 +141,11 @@
             "product": "{{product}}",
             "stars_text_empty": "AVIS CLIENT"
           }
+        },
+        "judge_me_reviews_preview_badge_MfiFnU": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -158,7 +163,8 @@
         "collapsible-row-3",
         "share",
         "6f1424ed-7eb6-41b1-bc13-e70cec48a60d",
-        "a2414d7d-a31b-4e1a-876f-917cc61f7282"
+        "a2414d7d-a31b-4e1a-876f-917cc61f7282",
+        "judge_me_reviews_preview_badge_MfiFnU"
       ],
       "settings": {
         "enable_sticky_info": true,
