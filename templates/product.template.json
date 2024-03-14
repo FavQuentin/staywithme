@@ -2,7 +2,6 @@
   "sections": {
     "634a5f60-98bb-46f5-9378-fb2c8e50d9b5": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-0": {
           "type": "heading",
@@ -23,6 +22,7 @@
         "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-0",
         "template--16594494718183__634a5f60-98bb-46f5-9378-fb2c8e50d9b5-1665561207ef30f6df-1"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 100,
         "image_height": "small",
@@ -190,7 +190,6 @@
     },
     "71f3a209-24b0-471b-8938-af92628d9268": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-0": {
           "type": "heading",
@@ -211,6 +210,7 @@
         "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-0",
         "template--16594494718183__71f3a209-24b0-471b-8938-af92628d9268-1665561804c6f859cd-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "small",
         "desktop_image_width": "small",
@@ -390,6 +390,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1710445414136128dd": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_cdTdYD": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_cdTdYD"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -401,6 +417,7 @@
     "912573e6-7b3d-4eed-bcd4-19869b47ed25",
     "38f24bb8-91cc-4f9a-9b5a-610f5030fca6",
     "2fc17a16-0261-4f31-aca6-fcac46bbb9bc",
-    "multicolumn"
+    "multicolumn",
+    "1710445414136128dd"
   ]
 }
