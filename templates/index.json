@@ -6,7 +6,7 @@
         "62c17f1d-9ed0-4112-a9d4-049e9110f4e3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_b06f75de-f458-42f1-887b-bee6fc0ac873.png",
+            "image": "shopify:\/\/shop_images\/SCINTILLANTE24IRAISER2000x350.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -20,29 +20,10 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_DQVPzH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "62c17f1d-9ed0-4112-a9d4-049e9110f4e3",
-        "slide_DQVPzH"
+        "62c17f1d-9ed0-4112-a9d4-049e9110f4e3"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -52,6 +33,50 @@
         "change_slides_speed": 5,
         "show_text_below": false,
         "accessibility_info": ""
+      }
+    },
+    "image_with_text_dxmXic": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BfqQjP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ambassadeur officiel",
+            "heading_size": "h2"
+          }
+        },
+        "text_GwWXwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay With Me devient ambassadeur de La Scintillante : course organisée par le <a href=\"https:\/\/ma-collecte.centreleonberard.fr\/projects\/stay-with-me-fr\" target=\"_blank\"><strong>Centre Léon Bérard <\/strong><\/a>dans le but de collecter des fonds pour la recherche contre le cancer.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_fGMV9t": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je fais un don",
+            "button_link": "https:\/\/ma-collecte.centreleonberard.fr\/projects\/stay-with-me-fr"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BfqQjP",
+        "text_GwWXwU",
+        "button_fGMV9t"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Centre_LA_on_BA_rard_2299451.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "6f4ce742-d8b3-469b-97fc-311e55546261": {
@@ -330,6 +355,7 @@
   },
   "order": [
     "647cde64-b465-4f8f-bff2-1fd0427b0b9b",
+    "image_with_text_dxmXic",
     "6f4ce742-d8b3-469b-97fc-311e55546261",
     "824fdc12-58b4-4b08-b7be-c5e89b7c02e2",
     "40303a81-f1ee-4732-9664-02d85b50055c",
